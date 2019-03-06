@@ -2,9 +2,7 @@ from cachetools import cached, TTLCache
 import requests
 import pandas as pd
 
-
 cache = TTLCache(maxsize=1, ttl=600) # time to live is 10 mins (except its stored = problem might be here)
-
 
 # calls api summary and returns a pandas dataframe. this could be generic when APIs are final
 @cached(cache)
