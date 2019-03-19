@@ -6,7 +6,7 @@ from config import config
 # gets dataframe and returns a plot
 def impressionCount(df):
     ax = plt.subplot(111) # sets alignment of the plot
-    barWidth = 0.02 # sets width of bars in the bar chart
+    barWidth = 0.01 # sets width of bars in the bar chart
     ax.bar(df.index, df.impressions, width=barWidth, align='edge') # creates the figure
     ax.xaxis_date() #sets x axis as datetime axis
     ax.set_title('Impression Count for '+config['name']) # sets the title
