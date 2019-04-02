@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import os
-from config import config
+# from config import config
 
 # gets dataframe and returns a plot
 def impressionCount(df):
