@@ -38,13 +38,13 @@ def checkDf(df):
         return
 
 # calls api summary and returns a pandas dataframe. this could be generic when APIs are final
-def getSummary(id):
+def getDF(id, type, count, skip):
 
     #check that id is correct
     checkId(id)
 
     # setup HTTP request
-    url = 'https://facebook.tracking.exposed/api/v1/summary/' + str(id) + '/' + '0'
+    url = 'https://testing.tracking.exposed/api/v2/personal/' + str(id) + '/' + type + '/' + str(count)+'-'+str(skip)
     print("Accessing summary, ID hidden.")
 
     # call API
@@ -55,6 +55,5 @@ def getSummary(id):
 
     # convert to DataFrame
     df = pd.DataFrame.from_records(data.json())
-
     checkDf(df)
     return df
