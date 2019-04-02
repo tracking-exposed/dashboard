@@ -3,4 +3,4 @@ matplotlib
 pandas
 requests
 requests-cache
-unittest
+# unittest
