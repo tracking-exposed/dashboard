@@ -10,7 +10,7 @@ sudo apt-get install git python3-venv python3-dev python3-tk python3-pip
 
 ### Git clone
 ```
-git clone https://github.com/tracking-exposed/dashboard-git.git && cd dashboard-git/dashboard
+git clone https://github.com/tracking-exposed/dashboard-git.git && cd dashboard-git
 ```
 
 ### setting up virtualenv
@@ -22,6 +22,11 @@ python3 -m venv venv && source venv/bin/activate
 ### Install requirements
 ```
 python3 -m pip install -r requirements.txt
+```
+
+### Navigate to the app folder
+```
+cd dashboard
 ```
 
 ### Run configure
