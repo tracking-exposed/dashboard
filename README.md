@@ -10,7 +10,7 @@ sudo apt-get install git python3-venv python3-dev python3-tk python3-pip
 
 ### Git clone
 ```
-git clone https://github.com/tracking-exposed/dashboard.git && cd dashboard
+git clone https://github.com/tracking-exposed/dashboard-git.git && cd dashboard-git/dashboard
 ```
 
 ### setting up virtualenv
@@ -38,7 +38,7 @@ python3 test/tester.py -c config/NAME-YOU-CHOOSE
 
 ### Usage
 ```
-python3 test/tester.py --help
+python3 app.py --help
 ```
 
 ### Configuration Notes
