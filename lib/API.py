@@ -37,8 +37,10 @@ def checkDf(df):
     else:
         return
 
-# calls api summary and returns a pandas dataframe. this could be generic when APIs are final
-def getDF(id, type, count, skip):
+
+'''calls (cached) api and returns json data.'''
+
+def getDf(id, type='summary', count=2000, skip=0):
 
     #check that id is correct
     checkId(id)
@@ -53,7 +55,7 @@ def getDF(id, type, count, skip):
     # Check that Dataframe is not empty
     checkData(data)
 
-    # convert to DataFrame
+    # convert to df
     df = pd.DataFrame.from_records(data.json())
-    checkDf(df)
+
     return df
