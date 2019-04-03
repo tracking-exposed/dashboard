@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import os
-# from config import config
+from lib.config import config
 
 # gets dataframe and returns a plot
 def impressionCount(df):
@@ -22,12 +22,11 @@ def formatDates(plt):
 
 # saves daily impressions needs timelineChart output
 def savePng(plt, name):
-    # save
-    script_dir = os.path.dirname(os.path.dirname(__file__))  # <-- absolute dir the script is in
-    rel_path = "./local/"+name+".png"
-    strFile = os.path.join(script_dir, rel_path)
+    rel_path = name+".png"
+    strFile = os.path.join(config['path'], rel_path)
+    print('Saving to \'' + strFile + '\'')
     # make sure file is overwritten
     if os.path.isfile(strFile):
         os.remove(strFile)
     plt.savefig(strFile)
-    plt.clf()
+    return plt.clf()
