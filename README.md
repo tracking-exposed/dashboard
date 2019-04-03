@@ -46,15 +46,15 @@ If you have a configuration file ready in config/, try:
 
 ### Configuration Notes
 
-* name = arbitrary name to identify your user
-* id = the ID you can retrieve in the URL you reach by clicking on *'Your Data'* on the browser in which you installed the extension.
-* config = specify a configuration file (like the one created with configure.py)
-* start = start date, format yyyy-mm-dd
-* end = end date, format yyyy-mm-dd
-* path = default save path (must be a writable directory)
-* no-csv = do not output csv
-* no-png = do not output png
-* no-html = do not output html
+* `name` = arbitrary name to identify your user
+* `id` = the ID you can retrieve in the URL you reach by clicking on *'Your Data'* on the browser in which you installed the extension.
+* `config` = specify a configuration file (like the one created with configure.py)
+* `start` = start date, format yyyy-mm-dd
+* `end` = end date, format yyyy-mm-dd
+* `path` = default save path (must be a writable directory)
+* `no-csv` = do not output csv
+* `no-png` = do not output png
+* `no-html` = do not output html
 
 ##### How do i retrieve my id?
 
