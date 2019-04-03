@@ -31,15 +31,13 @@ python3 configure.py
 
 The name you choose is the config name you will use to call the tester script.
 
-### You can use tester
-```
-python3 test/tester.py -c config/NAME-YOU-CHOOSE
-```
 
 ### Usage
 ```
 python3 app.py --help
 ```
+If you have a configuration file ready in config/, try:
+`python3 app.py -c config/$confname`
 
 ### Configuration Notes
 
