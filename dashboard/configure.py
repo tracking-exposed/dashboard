@@ -5,7 +5,6 @@ def add():
     print('\nThank you, this will be the name of your new configuration file: ' + name)
     rel_path = "config/" + name
     file = os.path.join(script_dir, rel_path)
-    command = os.path.join(script_dir, 'tests/app.py')
 
     with open(file, 'w+') as f:
         while True:
@@ -24,7 +23,7 @@ def add():
         f.write('--id ' + id + '\n')
         print('\n                       Done! saving to \'' + file + '\'')
         print('\nRemember you can call the app.py with this last configuration file by using:')
-        print('                     python3 ' + command + ' -c ' + file+'\n\n')
+        print('                     python3 app.py -c ' + file+'\n\n')
 
 def main():
     print('Welcome to the fbtrex dashboard configuration setup script.')
