@@ -58,7 +58,12 @@ If you have a configuration file ready in config/, try:
 
 ##### How do i retrieve my id?
 
-provide step by step explanation
+The easiest way to retrieve your unique id, right now, is to open your facebook profile in the browser where you installed the facebook.tracking.exposed extension. When you scroll the facebook wall, you will see a link with the name "Your Data". Follow that link, and look in your URL bar. Between two slashes (/) you will see an alphanumeric string. That string is your user id. It should be 40 characters long.
+
+##### Usage
+
+You can read some helpful information by running `python3 app.py --help`.
+
 
 ### If the installation fails
 If you get an error like "invalid command bdist\_wheel", try:
