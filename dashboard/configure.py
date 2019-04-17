@@ -32,11 +32,11 @@ def main():
         if c == '1':
             add()
             break
-        elif c == '2':
-            print('Pick one of the configurations to edit:\n')
-            dr = script_dir+'config/'
-            print(os.listdir(dr))
-            break
+        # elif c == '2':
+        #     print('Pick one of the configurations to edit:\n')
+        #     dr = script_dir+'config/'
+        #     print(os.listdir(dr))
+        #     break
         else:
             print('Invalid input, please try again.')
             continue
