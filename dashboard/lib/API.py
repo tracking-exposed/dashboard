@@ -58,4 +58,10 @@ def getDf(id, type='summary', count=2000, skip=0):
     # convert to df
     df = pd.DataFrame.from_records(data.json())
 
+    if type == 'summary':
+        df = df.fillna(value={'ANGRY': 0, 'HAHA': 0, 'LIKE': 0, 'LOVE': 0, 'SAD': 0, 'WOW': 0, 'videoautoplay': ''})
+        return df
+    else:
+        return df
+
     return df
