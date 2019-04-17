@@ -42,7 +42,7 @@ The name you choose is the config name you will use to call the tester script.
 python3 app.py --help
 ```
 If you have a configuration file ready in config/, try:
-`python3 app.py -c config/$confname`
+`python3 app.py -c config/$confname --csv`
 
 ### Configuration Notes
 
@@ -51,16 +51,24 @@ If you have a configuration file ready in config/, try:
 * `config` = specify a configuration file (like the one created with configure.py)
 * `start` = start date, format yyyy-mm-dd
 * `end` = end date, format yyyy-mm-dd
-* `path` = default save path (must be a writable directory)
-* `no-csv` = do not output csv
-* `no-png` = do not output png
-* `no-html` = do not output html
+* `path` = default save path (must be a writable directory already existing)
+* `csv` = outputs a csv
+* `png` = putputs a png chart, available only for impression-count
+* `html` = outputs an HTML table without styling
+* `json` = outputs json data
+* `impression-count` = performs impression count instead of showing the whole data, sets to True or False
 
 ##### How do i retrieve my id?
 
 The easiest way to retrieve your unique id, right now, is to open your facebook profile in the browser where you installed the facebook.tracking.exposed extension. When you scroll the facebook wall, you will see a link with the name "Your Data". Follow that link, and look in your URL bar. Between two slashes (/) you will see an alphanumeric string. That string is your user id. It should be 40 characters long.
 
 ##### Usage
+
+The simplest way to produce a csv or json out of your data is to call the script (using the virtual environment):
+`python3 app.py -c config/Name --csv` or `python3 app.py -c config/Name --json`
+
+If you want to produce impression count instead, you can do:
+`python3 app.py -c config/Name --png`
 
 You can read some helpful information by running `python3 app.py --help`.
 
