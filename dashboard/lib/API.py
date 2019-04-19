@@ -46,7 +46,7 @@ def getDf(id, type='summary', count=2000, skip=0):
     checkId(id)
 
     # setup HTTP request
-    url = 'https://testing.tracking.exposed/api/v2/personal/' + str(id) + '/' + type + '/' + str(count)+'-'+str(skip)
+    url = 'https://facebook.tracking.exposed/api/v2/personal/' + str(id) + '/' + type + '/' + str(count)+'-'+str(skip)
     print("Accessing summary, ID hidden.")
 
     # call API
