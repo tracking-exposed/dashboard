@@ -3,7 +3,7 @@ from lib.config import config
 
 if config['impression-count'] == True:
     savename = config['name'] + '_impressions_' + config['start'] + '_' + config['end']
-    df =  API.getDf(config['id'], 'summary', 30000, 0)
+    df =  API.getDf(config['token'], 'summary', 30000, 0)
     df = tools.setDatetimeIndex(df, 'impression')
     df = tools.setDatetimeIndexFloor(df, '1H')
     df = tools.setTimeframe(df, config['start'], config['end'])
@@ -23,7 +23,7 @@ if config['impression-count'] == True:
         print('Saving PNG...')
         viz.savePng(viz.formatDates(viz.impressionCount(df)), savename)
 else:
-    df =  API.getDf(config['id'], 'summary', 30000, 0)
+    df =  API.getDf(config['token'], 'summary', 30000, 0)
     savename = config['name'] + '_' + config['start'] + '_' + config['end']
     if config['csv'] == True:
         print('Saving CSV...')

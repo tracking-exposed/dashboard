@@ -3,7 +3,7 @@ import os ; script_dir = os.path.dirname(__file__) #<-- absolute dir the script 
 def add():
     name = input('Please, select a name for your new profile:\n_ ')
     print('\nThank you, this will be the name of your new configuration file: ' + name)
-    rel_path = "config/" + name
+    rel_path = "../config/" + name
     file = os.path.join(script_dir, rel_path)
 
     with open(file, 'w+') as f:

@@ -10,7 +10,7 @@ sudo apt-get install git python3-venv python3-dev python3-tk python3-pip
 
 ### Git clone
 ```
-git clone https://github.com/tracking-exposed/dashboard-git.git && cd dashboard-git
+git clone https://github.com/tracking-exposed/dashboard.git && cd dashboard
 ```
 
 ### setting up virtualenv
@@ -24,14 +24,11 @@ python3 -m venv venv && source venv/bin/activate
 python3 -m pip install -r requirements.txt
 ```
 
-### Navigate to the app folder
+### Run the configuration wizard 
+The scripts create an entry in `config/` directory, you can edit by hand
 ```
-cd dashboard
-```
+python3 src/wizard.py
 
-### Run configure
-```
-python3 configure.py
 ```
 
 The name you choose is the config name you will use to call the tester script.
@@ -39,15 +36,15 @@ The name you choose is the config name you will use to call the tester script.
 
 ### Usage
 ```
-python3 app.py --help
+python3 src/app.py --help
 ```
 If you have a configuration file ready in config/, try:
-`python3 app.py -c config/$confname --csv`
+`python3 src/app.py -c config/$confname --csv`
 
 ### Configuration Notes
 
 * `name` = arbitrary name to identify your user
-* `id` = the ID you can retrieve in the URL you reach by clicking on *'Your Data'* on the browser in which you installed the extension.
+* `token` = the fbtrex Token mandatory to retrieve data. 
 * `config` = specify a configuration file (like the one created with configure.py)
 * `start` = start date, format yyyy-mm-dd
 * `end` = end date, format yyyy-mm-dd
@@ -58,19 +55,22 @@ If you have a configuration file ready in config/, try:
 * `json` = outputs json data
 * `impression-count` = performs impression count instead of showing the whole data, sets to True or False
 
-##### How do i retrieve my id?
+##### How do i retrieve my authentication token?
 
-The easiest way to retrieve your unique id, right now, is to open your facebook profile in the browser where you installed the facebook.tracking.exposed extension. When you scroll the facebook wall, you will see a link with the name "Your Data". Follow that link, and look in your URL bar. Between two slashes (/) you will see an alphanumeric string. That string is your user id. It should be 40 characters long.
+1. you should have installed [fbtrex web-extension](https://facebook.tracking.exposed)
+2. you should have a valid facebook account, and use it with the browser where the fbtrex extension is installed
+3. click on "Your data" section, this would open an URL in your browser. 
+4. the token is part of the URL, for a simple copy-paste, click on the tab "Control your data"
 
 ##### Usage
 
-The simplest way to produce a csv or json out of your data is to call the script (using the virtual environment):
-`python3 app.py -c config/Name --csv` or `python3 app.py -c config/Name --json`
+The simplest way to produce a csv or json out of your data is to call the script (from the virtual environment):
+`python3 src/app.py -c config/Name --csv` or `python3 app.py -c config/Name --json`
 
 If you want to produce impression count instead, you can do:
-`python3 app.py -c config/Name --png`
+`python3 src/app.py -c config/Name --png`
 
-You can read some helpful information by running `python3 app.py --help`.
+You can read some helpful information by running `python3 src/app.py --help`.
 
 
 ### If the installation fails

@@ -5,7 +5,7 @@ import os
 
 # absolute path
 script_dir = os.path.dirname(os.path.dirname(__file__))  # <-- absolute dir the script is in
-rel_path = "./local/api-cache"
+rel_path = "../.apicache/retrieved.db"
 strCache = os.path.join(script_dir, rel_path)
 
 # Initialize Caching
@@ -15,39 +15,32 @@ requests_cache.install_cache(backend='sqlite', expire_after=600, cache_name=strC
 class EmptyDataframeError(Exception):
     pass
 
-def checkId(id):
-    if (len(id) != 40):
-        raise ValueError('the ID in configuration should be 40 characters long. This is '+str(len(id)))
-        return
-    else:
-        return
+def checkId(fbtrexToken):
+    if (len(fbtrexToken) != 40):
+        raise ValueError('the fbtrexToken in configuration should be 40 characters long. This is '+str(len(fbtrexToken)))
 
 def checkData(data):
     if (data.headers['Content-Type'] != 'application/json; charset=utf-8'):
         raise RuntimeError('Dataframe error')
-        return
-    else:
-        return
 
 def checkDf(df):
     if df.empty:
         raise EmptyDataframeError()
     elif type(df) == 'NoneType':
         raise EmptyDataframeError()
-    else:
-        return
 
 
 '''calls (cached) api and returns json data.'''
 
-def getDf(id, type='summary', count=2000, skip=0):
+def getDf(fbtrexToken, apiname='summary', count=2000, skip=0, server='https://facebook.tracking.exposed'):
 
-    #check that id is correct
-    checkId(id)
+    count=400
+    #check that fbtrexToken is correct
+    checkId(fbtrexToken)
 
     # setup HTTP request
-    url = 'https://facebook.tracking.exposed/api/v2/personal/' + str(id) + '/' + type + '/' + str(count)+'-'+str(skip)
-    print("Accessing summary, ID hidden.")
+    url = server + '/api/v2/personal/' + str(fbtrexToken) + '/' + apiname+ '/' + str(count)+'-'+str(skip)
+    print("Downloading JSON data via", url);
 
     # call API
     data = requests.get(url)
@@ -58,10 +51,7 @@ def getDf(id, type='summary', count=2000, skip=0):
     # convert to df
     df = pd.DataFrame.from_records(data.json())
 
-    if type == 'summary':
-        df = df.fillna(value={'ANGRY': 0, 'HAHA': 0, 'LIKE': 0, 'LOVE': 0, 'SAD': 0, 'WOW': 0, 'videoautoplay': ''})
-        return df
-    else:
-        return df
+    if apiname == 'summary':
+        return df.fillna(value={'ANGRY': 0, 'HAHA': 0, 'LIKE': 0, 'LOVE': 0, 'SAD': 0, 'WOW': 0, 'videoautoplay': ''})
 
-    return df
+    raise ValueError("Unsupported 'apiname' "+apiname);
