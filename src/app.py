@@ -10,11 +10,11 @@ if config['impression-count'] == True:
     df = tools.countImpressions(df)
     if config['csv'] == True:
         print('Saving CSV...')
-        df.to_csv(config['path']+savename+'.csv', index=True)
+        df.to_csv('/'+config['path']+savename+'.csv', index=True)
         print('Saved to '+config['path']+savename+'.csv')
     if config['json'] == True:
         print('Saving JSON...')
-        df.to_json(config['path'] + savename + '.json')
+        df.to_json('/'+config['path'] + savename + '.json')
         print('Saved to ' + config['path'] + savename + '.json')
     if config['html'] == True:
         print('Saving HTML...')
@@ -27,12 +27,12 @@ else:
     savename = config['name'] + '_' + config['start'] + '_' + config['end']
     if config['csv'] == True:
         print('Saving CSV...')
-        df.to_csv(config['path'] + savename + '.csv', index=False)
+        df.to_csv('/'+config['path'] + savename + '.csv', index=False)
         print('Saved to ' + config['path'] + savename + '.csv')
 
     if config['json'] == True:
         print('Saving JSON...')
-        df.to_json(config['path'] + savename + '.json')
+        df.to_json('/'+config['path'] + savename + '.json')
         print('Saved to ' + config['path'] + savename + '.json')
 
     if config['html'] == True:
