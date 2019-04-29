@@ -9,7 +9,7 @@ rel_path = "../.apicache/retrieved.db"
 strCache = os.path.join(script_dir, rel_path)
 
 # Initialize Caching
-requests_cache.install_cache(backend='sqlite', expire_after=600, cache_name=strCache)
+requests_cache.install_cache(backend='sqlite', expire_after=3200, cache_name=strCache)
 
 # Custom errors handling
 class EmptyDataframeError(Exception):
@@ -32,9 +32,8 @@ def checkDf(df):
 
 '''calls (cached) api and returns json data.'''
 
-def getDf(fbtrexToken, apiname='summary', count=2000, skip=0, server='https://facebook.tracking.exposed'):
+def getDf(fbtrexToken, apiname='summary', count=400, skip=0, server='https://facebook.tracking.exposed'):
 
-    count=400
     #check that fbtrexToken is correct
     checkId(fbtrexToken)
 

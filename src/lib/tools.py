@@ -1,5 +1,5 @@
 import os ; import pandas as pd ; from pandas.plotting import register_matplotlib_converters ; register_matplotlib_converters() # register converters
-from lib.config import config
+# from lib.config import config
 
 '''Takes a column, removes all the duplicates
     and returns a list of unique values.'''
@@ -34,6 +34,7 @@ def setDatetimeIndex(df, what='impression'):
     of milliseconds to hours (1H), or days (1D)'''
 
 def setDatetimeIndexFloor(df, what):
+    # df.index = pd.to_datetime(df.index)
     df.index = df.index.floor(what)
     return df
 
@@ -61,24 +62,26 @@ def setTimeframe(df, start, end):
 '''Saves dataframe to html table. Css styling
     and names can be added in the future.'''
 
-def saveHtml(df, savename):
-    # save
-    rel_path = savename + ".html"
-    strFile = os.path.join(config['path'], rel_path)
-    print('Saving to \'' + strFile + '\'')
-
-    # make sure file is overwritten
-    if os.path.isfile(strFile):
-        print('File already exists: overwriting.')
-        os.remove(strFile)
-
-    print('Done!')
-    return df.to_html(strFile)
+# def saveHtml(df, savename):
+#     # save
+#     rel_path = savename + ".html"
+#     strFile = os.path.join(config['path'], rel_path)
+#     print('Saving to \'' + strFile + '\'')
+#
+#     # make sure file is overwritten
+#     if os.path.isfile(strFile):
+#         print('File already exists: overwriting.')
+#         os.remove(strFile)
+#
+#     print('Done!')
+#     return df.to_html(strFile)
 
 
 '''Filters out the text column to get a Dataframe with impressions
     that contain a specific keyword or string.'''
 
-def filterTexts(df, search):
-    sb = df[df['texts'].str.contains(search)]
+def filter(df, what, search1, search2):
+    flt = search1+'|'+search2
+    sb = df[(df[what].str.contains(flt))]
     return sb
+

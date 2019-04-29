@@ -22,9 +22,9 @@ def main():
             df.to_json('/'+config['path'] + savename + '.json')
             print('Saved to ' + config['path'] + savename + '.json')
             
-        if config['html'] == True:
-            print('Saving HTML...')
-            tools.saveHtml(df, savename)
+        # if config['html'] == True:
+        #     print('Saving HTML...')
+        #     tools.saveHtml(df, savename)
             
         if config['png'] == True:
             print('Saving PNG...')
@@ -45,9 +45,9 @@ def main():
             df.to_json('/'+config['path'] + savename + '.json')
             print('Saved to ' + config['path'] + savename + '.json')
 
-        if config['html'] == True:
-            print('Saving HTML...')
-            tools.saveHtml(df, savename)
+        # if config['html'] == True:
+        #     print('Saving HTML...')
+        #     tools.saveHtml(df, savename)
             
         if config['png'] == True:
             print('Cant save a PNG for the whole data yet, use --impression-count')
