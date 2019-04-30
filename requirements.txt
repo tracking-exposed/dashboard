@@ -4,3 +4,4 @@ pandas
 requests
 requests-cache
 # unittest
+scikit-learn
