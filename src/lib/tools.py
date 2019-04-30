@@ -1,19 +1,24 @@
-import os ; import pandas as pd ; from pandas.plotting import register_matplotlib_converters ; register_matplotlib_converters() # register converters
-# from lib.config import config
+import pandas as pd
+from pandas.plotting import register_matplotlib_converters ; register_matplotlib_converters() # register converters
+import tempfile
+import itertools as IT
+import os
 
-'''Takes a column, removes all the duplicates
-    and returns a list of unique values.'''
-
-def makeList(df, what):
-    newList = []
-    for index, row in df.iterrows():
-        id = row[str(what)]
-        if not id in newList:
-            newList.append(id)
-        else:
-            pass
-    return newList
-
+def uniquePath(path, sep = ''):
+    def name_sequence():
+        count = IT.count()
+        yield ''
+        while True:
+            yield '{s}{n:d}'.format(s = sep, n = next(count))
+    orig = tempfile._name_sequence
+    with tempfile._once_lock:
+        tempfile._name_sequence = name_sequence()
+        path = os.path.normpath(path)
+        dirname, basename = os.path.split(path)
+        filename, ext = os.path.splitext(basename)
+        fd, filename = tempfile.mkstemp(dir = dirname, prefix = filename, suffix = ext)
+        tempfile._name_sequence = orig
+    return filename
 
 '''Sets the index as datetime, can be either
     by publicationTime or impressionTime'''
@@ -31,57 +36,34 @@ def setDatetimeIndex(df, what='impression'):
 
 
 '''Reduces datetime index from minimum values
-    of milliseconds to hours (1H), or days (1D)'''
+    of milliseconds to hours (1H), or days (1D)
+    default hour'''
 
-def setDatetimeIndexFloor(df, what):
-    # df.index = pd.to_datetime(df.index)
+def setDatetimeIndexFloor(df, what='1H'):
+    df.index = pd.to_datetime(df.index)
     df.index = df.index.floor(what)
-    return df
-
-
-'''Returns an aggregated version of the Dataframe.
-    After setting the floor, we count all the values with the same index.'''
-
-def countImpressions(df):
-    df = df.groupby(df.index).size()
-    df = df.reset_index()
-    df = df.set_index('impressionTime')
-    df.columns = ['impressions']
     return df
 
 
 '''Filters Dataframe with start and end date. needs a datetime indexed dataframe
     You can set start and end with formats "yyyy-mm-dd" or "yyyy-mm-dd hh:mm:ss"'''
 
-def setTimeframe(df, start, end):
-    df.sort_index(inplace=True, ascending=True)
-    data = df.loc[start:end]
-    return data
-
-
-'''Saves dataframe to html table. Css styling
-    and names can be added in the future.'''
-
-# def saveHtml(df, savename):
-#     # save
-#     rel_path = savename + ".html"
-#     strFile = os.path.join(config['path'], rel_path)
-#     print('Saving to \'' + strFile + '\'')
-#
-#     # make sure file is overwritten
-#     if os.path.isfile(strFile):
-#         print('File already exists: overwriting.')
-#         os.remove(strFile)
-#
-#     print('Done!')
-#     return df.to_html(strFile)
-
+def setTimeframe(df, s, e):
+    df.index = pd.to_datetime(df.index)
+    df = df.sort_index(ascending=True)
+    df = df.loc[s:e]
+    return df
 
 '''Filters out the text column to get a Dataframe with impressions
     that contain a specific keyword or string.'''
 
-def filter(df, what, search1, search2):
-    flt = search1+'|'+search2
-    sb = df[(df[what].str.contains(flt))]
-    return sb
-
+def filter(*args, df, what, kind='or'):
+    if args == []:
+        raise ValueError('Please define at least one word argument to use as filter')
+    else:
+        if kind == 'or':
+            flt = "|".join(args)
+            sb = df[(df[what].str.contains(flt))]
+            return sb
+        else:
+            raise ValueError('kind not recognized')

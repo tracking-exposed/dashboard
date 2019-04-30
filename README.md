@@ -24,53 +24,50 @@ python3 -m venv venv && source venv/bin/activate
 python3 -m pip install -r requirements.txt
 ```
 
-### Run the configuration wizard 
-The scripts create an entry in `config/` directory, you can edit by hand
+### Run the configuration wizard
 ```
 python3 src/wizard.py
-
 ```
 
-The name you choose is the config name you will use to call the tester script.
+The scripts create an entry in `config/` directory, you can edit it manually as well.
 
 
 ### Usage
-```
-python3 src/app.py --help
-```
-If you have a configuration file ready in config/, try:
-`python3 src/app.py -c config/$confname --csv`
+
+To download you summary data, use
+`
+python3 src/summary.py --token yourtokenhere
+`
+
+To get info on the status of your extension data, use
+`
+python3 src/status.py --token yourtokenhere
+`
+
+Use `--help` to get more info on the arguments you can use.
+
+If you have a configuration file, then try
+`python3 src/summary.py -c config/yourname`
+or `python3 src/status.py -c config/yourname`
 
 ### Configuration Notes
 
 * `name` = arbitrary name to identify your user
 * `token` = the fbtrex Token mandatory to retrieve data. 
-* `config` = specify a configuration file (like the one created with configure.py)
-* `start` = start date, format yyyy-mm-dd
-* `end` = end date, format yyyy-mm-dd
-* `path` = default save path (must be a writable directory already existing)
-* `csv` = outputs a csv
-* `png` = putputs a png chart, available only for impression-count
-* `html` = outputs an HTML table without styling
-* `json` = outputs json data
-* `impression-count` = performs impression count instead of showing the whole data, sets to True or False
+* `config` = specify a configuration file (like the one created with wizard.py)
+* `path` = default save path (must be a writable directory)
+* `no-csv` = does not output a csv
+* `json` = outputs json data (too)
+* `amount` = amount of entries to fetch from api
+* `skip` = amount of entries to skip
 
-##### How do i retrieve my authentication token?
 
-1. you should have installed [fbtrex web-extension](https://facebook.tracking.exposed)
-2. you should have a valid facebook account, and use it with the browser where the fbtrex extension is installed
-3. click on "Your data" section, this would open an URL in your browser. 
+### How do i retrieve my authentication token?
+
+1. install [fbtrex web-extension](https://facebook.tracking.exposed)
+2. have a valid facebook account, and use it with the browser where the fbtrex extension is installed
+3. click on "Your data" section, this will open an URL in your browser.
 4. the token is part of the URL, for a simple copy-paste, click on the tab "Control your data"
-
-##### Usage
-
-The simplest way to produce a csv or json out of your data is to call the script (from the virtual environment):
-`python3 src/app.py -c config/Name --csv` or `python3 app.py -c config/Name --json`
-
-If you want to produce impression count instead, you can do:
-`python3 src/app.py -c config/Name --png`
-
-You can read some helpful information by running `python3 src/app.py --help`.
 
 
 ### If the installation fails

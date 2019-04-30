@@ -1,4 +1,5 @@
-import os ; script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
+import os
+script_dir = os.path.dirname(__file__)
 
 def add():
     name = input('Please, select a name for your new profile:\n_ ')
@@ -22,8 +23,8 @@ def add():
         f.write('--name ' + name + '\n')
         f.write('--id ' + id + '\n')
         print('\n                       Done! saving to \'' + file + '\'')
-        print('\nRemember you can call the app.py with this last configuration file by using:')
-        print('                     python3 app.py -c ' + file+'\n\n')
+        print('\nRemember you can call scripts with this configuration file by using:')
+        print('                     python3 script.py -c ' + file+'\n\n')
 
 def main():
     print('Welcome to the fbtrex dashboard configuration setup script.')

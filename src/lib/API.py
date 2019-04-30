@@ -9,7 +9,7 @@ rel_path = "../.apicache/retrieved.db"
 strCache = os.path.join(script_dir, rel_path)
 
 # Initialize Caching
-requests_cache.install_cache(backend='sqlite', expire_after=3200, cache_name=strCache)
+requests_cache.install_cache(backend='sqlite', expire_after=600, cache_name=strCache)
 
 # Custom errors handling
 class EmptyDataframeError(Exception):
@@ -31,26 +31,23 @@ def checkDf(df):
 
 
 '''calls (cached) api and returns json data.'''
-
 def getDf(fbtrexToken, apiname='summary', count=400, skip=0, server='https://facebook.tracking.exposed'):
-
     #check that fbtrexToken is correct
     checkId(fbtrexToken)
-
     # setup HTTP request
-    url = server + '/api/v2/personal/' + str(fbtrexToken) + '/' + apiname+ '/' + str(count)+'-'+str(skip)
+    url = server + '/api/v2/personal/' + str(fbtrexToken) + '/' + apiname + '/' + str(count) +'-'+str(skip)
     print("Downloading JSON data via", url);
-
     # call API
     data = requests.get(url)
-
     # Check that Dataframe is not empty
     checkData(data)
-
-    # convert to df
-    df = pd.DataFrame.from_records(data.json())
-
     if apiname == 'summary':
+        # convert to df
+        df = pd.DataFrame.from_records(data.json())
+        checkDf(df)
         return df.fillna(value={'ANGRY': 0, 'HAHA': 0, 'LIKE': 0, 'LOVE': 0, 'SAD': 0, 'WOW': 0, 'videoautoplay': ''})
-
-    raise ValueError("Unsupported 'apiname' "+apiname);
+    elif apiname == 'stats':
+        df = pd.DataFrame.from_records(data.json()['content'])
+        checkDf(df)
+        return df
+    raise ValueError("Unsupported 'apiname' "+apiname)
