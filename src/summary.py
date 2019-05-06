@@ -1,11 +1,12 @@
 from lib import API, tools
-from lib.config import summary as config
+from lib.config import config
 
 def main():
         if config['name'] != None:
             path = config['path'] + '/' + config['name'] + '_summary'
         else:
             path = config['path'] + '/' + config['token'] + '_summary'
+
         df = API.getDf(config['token'], 'summary', config['amount'], config['skip'])
 
         if config['csv']:

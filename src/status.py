@@ -1,5 +1,5 @@
 from lib import API, tools
-from lib.config import status as config
+from lib.config import config
 
 def main():
     if config['name'] != None:
