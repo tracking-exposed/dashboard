@@ -34,11 +34,13 @@ def checkDf(df):
 def getDf(fbtrexToken, apiname='summary', count=400, skip=0, server='https://facebook.tracking.exposed'):
     #check that fbtrexToken is correct
     checkId(fbtrexToken)
+
     # setup HTTP request
-    url = server + '/api/v2/personal/' + str(fbtrexToken) + '/' + apiname + '/' + str(count) +'-'+str(skip)
+    url = server + '/api/v2/personal/' + str(fbtrexToken) + '/' + apiname + '/' + str(count) + '-' + str(skip)
     print("Downloading JSON data via", url);
     # call API
     data = requests.get(url)
+
     # Check that Dataframe is not empty
     checkData(data)
     if apiname == 'summary':

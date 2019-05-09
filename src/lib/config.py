@@ -24,15 +24,4 @@ p.add('-s1', '--source1', help='string of the exact displayname for the first so
 p.add('-s2', '--source2', help='string of the exact displayname for the second source')
 config = vars(p.parse_args())
 
-# ps = configargparse.ArgParser(
-#     # default_config_files=[os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(__file__)), "config/general.conf"))]
-# )
-# ps.add('-n', '--name', help='name for your facebook profile')
-# ps.add('-t', '--token', help='token of your fbtrex user', required=True)
-# ps.add('-p', '--path', help='path to save to (default "outputs")', default=save_path)
-# ps.add('-c', '--config', is_config_file=True, help='config file path')
-# ps.add('--no-csv', dest='csv', action='store_false', default=True, help='do not create a csv')
-# ps.add('--json', dest='json', action='store_true', default=False, help='create a json')
-# ps.add('-a', '--amount', help='amount of entries to fetch from api', default=12)
-# ps.add('--skip', help='amount of entries to skip', default=0)
-# status = vars(ps.parse_args())
+'''argparse libreria python standard'''

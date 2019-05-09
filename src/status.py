@@ -2,12 +2,14 @@ from lib import API, tools
 from lib.config import config
 
 def main():
+
     if config['name'] != None:
         path = config['path'] + '/' + config['name']
     else:
         path = config['path'] + '/' + config['token']
 
-    df = API.getDf(config['token'], apiname='stats', count=config['amount'])[['startTime', 'impressionOrder']].groupby('startTime', as_index=True).max()
+    df = API.getDf(config['token'], apiname='stats', count=config['amount'])
+    df= df[['startTime', 'impressionOrder']].groupby('startTime', as_index=True).max()
     df = tools.setDatetimeIndexFloor(df, what=config['granularity']).groupby(df.index).sum()
 
     if config['csv']:
@@ -15,7 +17,7 @@ def main():
     elif config['json']:
         df.to_json(path+'_status.json')
     else:
-        print(df)
+        print(df.to_string())
 
 if __name__ == "__main__":
     main()

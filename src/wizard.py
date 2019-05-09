@@ -19,9 +19,11 @@ def add():
             except ValueError:
                 print('Id should contain only numbers and lowercase letters from a to f. Please enter it again.')
                 continue
+
         f.write('# see README.md for more infos\n')
         f.write('--name ' + name + '\n')
         f.write('--id ' + id + '\n')
+
         print('\n                       Done! saving to \'' + file + '\'')
         print('\nRemember you can call scripts with this configuration file by using:')
         print('                     python3 script.py -c ' + file+'\n\n')
@@ -29,7 +31,7 @@ def add():
 def main():
     print('Welcome to the fbtrex dashboard configuration setup script.')
     while True:
-        c = input('Please pick one:\n1. Add a new profile\n\n_')
+        c = input('Please pick one:\n1. Add a new profile\n_')
         if c == '1':
             add()
             break

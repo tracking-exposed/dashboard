@@ -3,11 +3,13 @@ from lib import API, tools
 from lib.config import config
 import datetime
 
-df = tools.setDatetimeIndex(API.getDf(config['token'], 'summary', config['amount'], config['skip']))
-max = str(df.index.max())[:-6]
-min = str(df.index.min())[:-6]
+df = API.getDf(config['token'], 'summary', config['amount'], config['skip'])
+df = tools.setDatetimeIndex(df)
+maxDate = str(df.index.max())[:-6]
+minDate = str(df.index.min())[:-6]
 
 timelines = df.timeline.unique()
+
 total = pd.to_timedelta(0)
 
 for t in timelines:
@@ -18,19 +20,12 @@ for t in timelines:
 n = 3
 top = df.source.value_counts().nlargest(n)
 nature = df.nature.value_counts()
-perc = (str((nature.sponsored/nature.organic)*100)[:-12]+'%')
+percentage = str((nature.sponsored/nature.organic)*100)[:-12]+'%'
 
-timeads = (total.seconds/100)*(nature.sponsored/nature.organic)*100
+timeads = (total.seconds)*(nature.sponsored/nature.organic)
 
-print('Information for timeframe: '+min+' to '+max)
+print('Information for timeframe: '+minDate+' to '+maxDate)
 print('Total time spent on Facebook: '+str(total))
 print('Top '+str(n)+' sources of information are: \n'+top.to_string())
-'''
-We can show this as table in ipython:
-    from IPython.display import display, HTML
-    display(HTML(df.to_html()))
-    '''
-
-print(perc+' of the posts are sponsored posts.')
-print('You spent an estimate of '+str(datetime.timedelta(minutes=(timeads/60)))[:-7]+' watching ads on Facebook.')
-
+print(percentage+' of the posts are sponsored posts.')
+print('You spent an estimate of '+str(datetime.timedelta(seconds=(timeads)))[:-7]+' watching ads on Facebook.')

@@ -31,9 +31,7 @@ def setDatetimeIndex(df, what='impression'):
         df = df.set_index(pd.DatetimeIndex(df['impressionTime']))
         return df
     else:
-        print('\"what\" should be either \"publication\" or \"impression\".')
-        raise ValueError
-
+        raise ValueError('\"what\" should be either \"publication\" or \"impression\".')
 
 '''Reduces datetime index from minimum values
     of milliseconds to hours (1H), or days (1D)
@@ -44,14 +42,13 @@ def setDatetimeIndexFloor(df, what='1H'):
     df.index = df.index.floor(what)
     return df
 
-
 '''Filters Dataframe with start and end date. needs a datetime indexed dataframe
     You can set start and end with formats "yyyy-mm-dd" or "yyyy-mm-dd hh:mm:ss"'''
 
-def setTimeframe(df, s, e):
+def setTimeframe(df, start, end):
     df.index = pd.to_datetime(df.index)
     df = df.sort_index(ascending=True)
-    df = df.loc[s:e]
+    df = df.loc[start:end]
     return df
 
 '''Filters out the text column to get a Dataframe with impressions

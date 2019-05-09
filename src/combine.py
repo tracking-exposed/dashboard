@@ -28,12 +28,14 @@ def harmonize(a=[], start=config['start'], end=config['end'], source1=config['so
     end = pd.to_datetime(end, utc=True)
 
     for i in range(0, len(a)):
+
         if 'date' in a[i].columns:
             a[i] = a[i][(a[i]['date'].str.match('\d\d\d\d-\d\d-\d.*', na=True)) | a[i].date.notnull()]
             a[i]['date'] = pd.to_datetime(a[i]['date'], utc=True)
             m = (a[i]['date'] >= start) & (a[i]['date'] <= end)
             a[i] = a[i].loc[m].set_index(['date']).sort_index()
             a[i] = tools.filter(source1, source2, df=a[i], what='source', kind='or')
+
         elif 'publicationTime' in a[i].columns:
             a[i] = a[i][(a[i]['publicationTime'].str.match('\d\d\d\d-\d\d-\d.*', na=True)) | a[i].publicationTime.notnull()]
             a[i]['publicationTime'] = pd.to_datetime(a[i]['publicationTime'], utc=True)
@@ -42,6 +44,7 @@ def harmonize(a=[], start=config['start'], end=config['end'], source1=config['so
             if 'Unnamed: 0' in a[i].columns:
                 a[i] = a[i].drop(['Unnamed: 0'], axis=1)
             a[i] = tools.filter(source1, source2, df=a[i], what='source', kind='or')
+
         else:
             raise ValueError('cannot find the dates column')
     return a
