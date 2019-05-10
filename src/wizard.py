@@ -10,7 +10,7 @@ def add():
     with open(file, 'w+') as f:
         while True:
             try:
-                id = input('\nPlease paste the unique id for your user: _ ')
+                id = input('\nPlease paste the unique token for your user: _ ')
                 int(id, 16)
                 if len(id) == 40:
                     break
@@ -22,7 +22,7 @@ def add():
 
         f.write('# see README.md for more infos\n')
         f.write('--name ' + name + '\n')
-        f.write('--id ' + id + '\n')
+        f.write('--token ' + id + '\n')
 
         print('\n                       Done! saving to \'' + file + '\'')
         print('\nRemember you can call scripts with this configuration file by using:')
