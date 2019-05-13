@@ -5,6 +5,7 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
 ```
 
 ## How to make it work
@@ -14,3 +15,21 @@ This folder contains only the shiny part of the app. App itself depends on multi
 These files can be prepared with `eda.R`. Once they are saved into `shiny` folder, `app.R` is the file that runs the app itself.
 
 `stopwords-iso.json` are stopwords words for multiple languages I've found somewhere on GitHub lying around.
+
+## Packages used
+
+```{r}
+pkgs <- attachment::att_from_rscripts(path = ".", recursive = TRUE)
+pkgs
+```
+
+Versions:
+
+```{r}
+installed.packages() %>%
+  tibble::as_tibble() %>%
+  dplyr::filter(Package %in% pkgs) %>%
+  dplyr::select(Package, Version) %>%
+  DT::datatable()
+```
+
