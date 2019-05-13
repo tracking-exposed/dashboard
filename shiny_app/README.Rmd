@@ -1,0 +1,16 @@
+---
+title: "README"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## How to make it work
+
+This folder contains only the shiny part of the app. App itself depends on multiple cached files since otherwise computations are too intensive for app to be responsive.
+
+These files can be prepared with `eda.R`. Once they are saved into `shiny` folder, `app.R` is the file that runs the app itself.
+
+`stopwords-iso.json` are stopwords words for multiple languages I've found somewhere on GitHub lying around.
