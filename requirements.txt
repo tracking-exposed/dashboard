@@ -1,3 +1,4 @@
+wheel
 ConfigArgParse==0.13.0
 matplotlib
 pandas
@@ -5,3 +6,5 @@ requests
 requests-cache
 scikit-learn
 altair
+vega
+notebook
