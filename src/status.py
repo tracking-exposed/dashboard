@@ -1,38 +1,48 @@
 from lib import API, tools
-from lib.config import config
+from lib.config import p
 from datetime import datetime
 import pandas as pd
 import logging
 
+p.add('-a', '--amount', help='amount of entries to fetch from api', default=1)
+p.add('--skip', help='amount of entries to skip', default=0)
+config = vars(p.parse_args())
+
 
 if config['name'] != None:
-    path = config['path'] + '/' + config['name']
+    path = config['path'] + '/' + config['name']+'.log'
+    name = config['name']
 else:
-    path = config['path'] + '/' + config['token']
+    path = config['path'] + '/' + config['token']+'.log'
+    name = config['path']
 
-logging.basicConfig(level=logging.WARNING, format='%(asctime)s - %(levelname)s - %(message)s', filename=path+'_status.log')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename=path)
 
 
-def checkBots():
+def check():
     df = API.getDf(config['token'], apiname='stats', count=1, skip=0)
-    # print(df)
 
     # Check for parser errors
     parsing_errors = len(df.loc[(df.summary.astype(str) == '[]') & -(df.htmlId.isnull())])
+
+    logging.info('Looking for errors for '+name)
+
     if parsing_errors > 0:
-        logging.warning('Encountered ' + str(parsing_errors) + ' parsing errors.')
+        logging.warning(name + ' encountered ' + str(parsing_errors) + ' parsing errors.')
 
     # Check if the bot is down
     delta = datetime.utcnow() - pd.to_datetime(df.startTime.max()).tz_localize(None)
     if delta.seconds / 3600 > 1:
-        logging.critical('Warning, ' + config['name'] + ' is down since ' + str(delta))
+        logging.critical(name + ' is DOWN since ' + str(delta))
 
     # Check if bot is correctly getting impressions
     max_impressionOrder = df.impressionOrder.max()
     if max_impressionOrder < 35:
-        logging.error('Warning, ' + config['name'] + ' is having problems, only ' + str(max_impressionOrder) + ' impressions collected in the last hour.')
+        logging.error(name + ' is having problems, only ' + str(max_impressionOrder) + ' impressions collected in the last hour.')
 
+def history(timeframe=48):
+    df = API.getDf(config['token'], apiname='stats', count=timeframe, skip=0)
+    return df.to_html()
 
 if __name__ == "__main__":
-    checkBots()
-
+    check()

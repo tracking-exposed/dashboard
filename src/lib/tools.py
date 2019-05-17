@@ -60,7 +60,7 @@ def filter(*args, df, what, kind='or'):
     else:
         if kind == 'or':
             flt = "|".join(args)
-            sb = df[(df[what].str.contains(flt))]
+            sb = df[(df[what].str.contains(flt, na=False))]
             return sb
         else:
             raise ValueError('kind not recognized')
