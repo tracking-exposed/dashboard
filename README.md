@@ -7,6 +7,7 @@ Python libraries for tracking-exposed
 ```
 sudo apt-get install git python3-venv python3-dev python3-tk python3-pip
 ```
+Note: You need python 3.5.3+ to use altair
 
 ### Git clone
 ```
@@ -75,3 +76,4 @@ If you get an error like "invalid command bdist\_wheel", try:
 ```
 python3 -m pip install wheel
 ```
+Please note that this code has been tested only on Ubuntu 18 or above
