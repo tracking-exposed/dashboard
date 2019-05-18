@@ -1,0 +1,39 @@
+---
+title: "README"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+```
+
+## Packages used
+
+```{r}
+pkgs <- attachment::att_from_rscripts(path = ".", recursive = TRUE)
+pkgs
+```
+
+Versions:
+
+```{r}
+installed.packages() %>%
+  tibble::as_tibble() %>%
+  dplyr::filter(Package %in% pkgs) %>%
+  dplyr::select(Package, Version) %>%
+  DT::datatable()
+```
+
+## Data used
+
+Data for the dashboard came from a dataset provided during the DSSG 2019 hackathon. Data definition can be found here - https://docs.google.com/document/d/1-Db9evxYxdpHEG5P4h8UM3P8EC1W6PhMsFV3DBlHQOc/edit .
+
+`stopwords-iso.json` are stopwords words for multiple languages I've found somewhere on GitHub lying around.
+
+
+## Starting the app
+
+This folder contains only the shiny part of the app. App itself depends on multiple cached files since otherwise computations are too intensive for app to be responsive.
+
+In order to make app work, input dataset should be placed to folder `fbtrx_simple_csv` and named `fbtrx_simple.csv` (or you can provide your custom location at line 18 of `eda.R`). The format of the data should be identical to data definition above. Sourcing `eda.R` will create cached datasets and put them into `shiny` folder. Once it's done, you can start `app.R` with, e.g., RStudio "Run app" button or with `shiny::runApp('path/to/folder/shiny')`.
