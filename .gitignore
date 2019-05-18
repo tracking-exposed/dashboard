@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 # C extensions
 *.so
+# R
+.Rhistory
 # Distribution / packaging
 .Python
 build/
