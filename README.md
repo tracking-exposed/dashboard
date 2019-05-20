@@ -8,7 +8,7 @@ The tools aim at understanding more about algorithms and their impact on peoples
 ## Who is this for?
 
 #### Data scientist
-Data scientists with a some knowledge of python or R can use this repository as a starting point to develop more complex visualizations with their own tracking.exposed datasets. Many features can be implemented easily in the library, just add some code and make a PR or open an issue.
+Data scientists with some knowledge of python or R can use this repository as a starting point to develop more complex visualizations with their own tracking.exposed datasets. Many features can be implemented easily in the library, just add some code and make a PR or open an issue.
 
 #### Researchers
 This tools are free to use and modify and can be employed to conduct research in an academic context. Social scientists as well as researchers with a different background can use the tools to answer questions about the inner mechanics of the algorithm.
