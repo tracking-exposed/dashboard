@@ -53,3 +53,4 @@ def getDf(fbtrexToken, apiname='summary', count=400, skip=0, server='https://fac
         checkDf(df)
         return df
     raise ValueError("Unsupported 'apiname' "+apiname)
+

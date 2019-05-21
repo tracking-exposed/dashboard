@@ -64,3 +64,54 @@ def filter(*args, df, what, kind='or'):
             return sb
         else:
             raise ValueError('kind not recognized')
+
+# make sure list of dfs (summary or fbcrawl output) has same two sources and same timeframe,
+# specified timeframe should be smaller than timeframe of the datasets otherwise doesn't work
+
+def harmonize(a, # list of fbcrawl or fbtrex summary outputs
+              start, # start date as string UTC e.g. 2019-05-15
+              end, # end date as string UTC
+              source1, # exact name of 'source', (the name displayed, not the @username)
+              source2): # exact name of 'source'. (EU19 is intended to only compare two)
+
+    # make dates machine readable
+    start = pd.to_datetime(start, utc=True)
+    end = pd.to_datetime(end, utc=True)
+
+    # cycle through the list of fbcrawl merged outputs and user
+    for i in range(0, len(a)):
+
+        if 'date' in a[i].columns: # if it's a fbcrawl output
+            a[i] = a[i][(a[i]['date'].str.match('\d\d\d\d-\d\d-\d.*', na=True)) | a[i].date.notnull()] # filter out entries without a date
+            a[i]['date'] = pd.to_datetime(a[i]['date'], utc=True) # converts date to datetime
+            m = (a[i]['date'] >= start) & (a[i]['date'] <= end) # filter for the timeframe
+            a[i] = a[i].loc[m].set_index(['date']).sort_index() # filters out timeframe and sets sorted index
+            a[i] = filter(source1, source2, df=a[i], what='source', kind='or')
+
+        elif 'publicationTime' in a[i].columns: # if its a fbtrex output
+            a[i] = a[i][(a[i]['publicationTime'].str.match('\d\d\d\d-\d\d-\d.*', na=True)) | a[i].publicationTime.notnull()]
+            a[i]['publicationTime'] = pd.to_datetime(a[i]['publicationTime'], utc=True)
+            m = (a[i]['publicationTime'] >= start) & (a[i]['publicationTime'] <= end)
+            a[i] = a[i].loc[m].set_index(['publicationTime']).sort_index().drop(['videoautoplay'], axis=1)
+            if 'Unnamed: 0' in a[i].columns:
+                a[i] = a[i].drop(['Unnamed: 0'], axis=1)
+            a[i] = filter(source1, source2, df=a[i], what='source', kind='or')
+
+        else:
+            raise ValueError('cannot find the dates column')
+    return a
+
+def concatenateCsv(list):
+    df = pd.DataFrame()
+    for a in list:
+        try:
+            if df.empty:
+                df = pd.read_csv(a)
+            else:
+                df = df.append(pd.read_csv(a), ignore_index=True)
+        except FileNotFoundError:
+            print('File '+a+' not found.')
+    if df.empty:
+        raise ValueError('Empty dataframe. Reading sources failed.')
+    else:
+        return df

@@ -89,3 +89,4 @@ venv.bak/
 .mypy_cache/
 .Rproj.user
 dashboard.Rproj
+new_venv/

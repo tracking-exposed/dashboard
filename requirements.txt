@@ -8,3 +8,8 @@ scikit-learn
 altair
 vega
 notebook
+wordcloud
+numpy
+pillow
+stop-words
+matplotlib-venn
