@@ -4,8 +4,7 @@ from datetime import datetime
 import pandas as pd
 import logging
 
-p.add('-a', '--amount', help='amount of entries to fetch from api', default=1)
-p.add('--skip', help='amount of entries to skip', default=0)
+
 config = vars(p.parse_args())
 
 
@@ -40,9 +39,6 @@ def check():
     if max_impressionOrder < 35:
         logging.error(name + ' is having problems, only ' + str(max_impressionOrder) + ' impressions collected in the last hour.')
 
-# def history(timeframe=48):
-#     df = API.getDf(config['token'], apiname='stats', count=timeframe, skip=0)
-#     return df.to_html()
 
 if __name__ == "__main__":
     check()

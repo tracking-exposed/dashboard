@@ -8,7 +8,6 @@ p.add('--no-csv', dest='csv', action='store_false', default=True, help='do not c
 p.add('--json', dest='json', action='store_true', default=False, help='create a json')
 p.add('-a', '--amount', help='amount of entries to fetch from api', default=400)
 p.add('--skip', help='amount of entries to skip', default=0)
-p.add('--api-source', help='Choose among: summary, status, ')
 config = vars(p.parse_args())
 
 '''
@@ -25,9 +24,9 @@ i want to download my data, this script should allow a user to get all the relev
 def main(what='summary'):
 
         if config['name'] != None:
-            path = config['path'] + '/' + config['name'] + '_summary'
+            path = config['path'] + '/' + config['name'] + '_' + what
         else:
-            path = config['path'] + '/' + config['token'] + '_summary'
+            path = config['path'] + '/' + config['token'] + '_' + what
 
         df = API.getDf(config['token'], what, config['amount'], config['skip'])
 
