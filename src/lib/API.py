@@ -43,7 +43,7 @@ def getDf(fbtrexToken, apiname='summary', count=400, skip=0, server='https://fac
 
     # Check that Dataframe is not empty
     checkData(data)
-    if apiname == 'summary':
+    if apiname == 'summary' or apiname == 'semantics':
         # convert to df
         df = pd.DataFrame.from_records(data.json())
         checkDf(df)
