@@ -41,7 +41,7 @@ def main():
 
     if config['wordcloud']:
         generate_wordcloud(text)
-    elif config['csv']:
+    if config['csv']:
         savepath = tools.uniquePath(config['path'] + '/' + config['name'] + '_labels.csv')
         top_labels = topLabels(df, config['top'])
         top_labels.to_csv(savepath, header=False)
