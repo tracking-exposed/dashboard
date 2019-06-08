@@ -1,0 +1,1281 @@
+impressionTime,user,word,count
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,AMB,26.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Aborto,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Ajuda,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Alba Carrillo,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Albacete,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Alberto Chicote,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Alcalde,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Alemania,20.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Alfara,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Alga calcárea,14.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Alma,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Andalucía,10.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Arantxa Sánchez Vicario,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Arenys de Mar,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Argentina,22.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Asesinato,39.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Asesinato masivo,1.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Automóvil,11.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Badajoz,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Baloncesto,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Barbara Palvin,26.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Barcelona,39.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Berna González Harbour,9.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Bicicleta,10.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Bipartidismo,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Brexit,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Califato,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Carolina Herrera,13.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Cayetana Álvarez de Toledo,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Celebridad,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Cine,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Comercio,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Congreso de los Diputados,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Cuerpo Nacional de Policía,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,DJ,9.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Dictadura,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Dios,12.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Diputación Provincial,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Diputación de Badajoz,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Divorcio,14.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Donald Trump,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Ecuador,12.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Embarazo adolescente,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Eslogan,9.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,España,7.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Esquizofrenia,1.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Estado,13.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Estado Islámico,9.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Estados Unidos,12.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Euro,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Familia,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Feminista,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Fernando Verdasco,16.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Feto,9.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Flée,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Fotografía,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Francia,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Francisco Franco,25.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Fuerteventura,28.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Gastronomía,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Gestación subrogada,24.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Gimnasia,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Gramática,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Guadiana del Caudillo,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Guardia Civil,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Guardia Urbana de Barcelona,13.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Guerra,24.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Guerra Civil,16.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Guerra Civil Española,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Guerra de la Independencia,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Guerras de independencia hispanoamericanas,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Género,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Hierro,14.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Historiador,16.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Homo neanderthalensis,9.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Homosexualidad,20.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Hospital,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Hostelería,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Independencia,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Inglaterra,10.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Instagram,34.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Internet,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Isabel Pantoja,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Jaqueta,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Jeff Bezos,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Joint Tracta,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Jurats,5.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Kiko Rivera,18.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Lenguaje no sexista,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Ley de Memoria Histórica,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Libertad,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Lionel Messi,1.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Lisboa,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Londres,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,L’Heure espagnole,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Machismo,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Madre,30.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Madrid,25.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Magnate,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,María Patiño,12.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,María Teresa Campos,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Matrimonio,20.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,McDonald’s,10.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Miguel Bosé,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Mozos de Escuadra,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Muerte,11.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Mujer,12.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Música,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Nicole Kidman,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Niño,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Notario,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Nueva York,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Ofensiva de Cataluña,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Omeya,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,PSOE,9.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Palomitas de maíz,14.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Papa,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Papa Francisco,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Partido Popular,22.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Parto,12.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,París,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Paz Padilla,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Pornografía,1.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Portugués,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Pueblo,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Reality show,9.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Redes sociales,16.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Renfe,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Riqueza,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Rosa López,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,SE-40,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Salvador Sobral,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Santiago Abascal,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Sebastian Kurz,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Siria,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Socialista,10.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Sociología,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Stradivarius,12.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Surrealismo,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Sálvame Deluxe,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Sálvame diario,12.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Síndrome de Asperger,1.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Take Care,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Tasmania,1.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Telecinco,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Tenis,11.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Terremoto,16.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,The Cribs,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,The Seeds,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Thibaut Courtois,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Tom Cruise,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Torero,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Trasplante de corazón,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Trata de personas,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,T’Hó,1.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Uber,33.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Vanguardia,5.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Venezuela,6.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Victoria’s Secret,13.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Viena,4.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Violencia,1.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Voto,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Vox,3.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Vértigo,5.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Xenofobia,2.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Yihadista,9.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Zoofilia,1.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Ángel Viñas,24.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Área metropolitana de Barcelona,8.0
+2019-04-01 00:00:00+00:00,tapioca-manicotti-casserole,Átomo,8.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,AMB,10.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Alemania,4.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Alga calcárea,5.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Argentina,5.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Asesinato,12.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Barbara Palvin,2.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Barcelona,13.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Bicicleta,2.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Carolina Herrera,5.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,DJ,2.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Dictadura,1.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Eslogan,2.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,España,1.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Estado,4.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Flée,1.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Francia,1.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Francisco Franco,2.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Fuerteventura,10.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Guardia Urbana de Barcelona,8.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Guerra Civil Española,1.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Guerras de independencia hispanoamericanas,1.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Hierro,5.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Historiador,2.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Inglaterra,2.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Instagram,10.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Kiko Rivera,4.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Madrid,2.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,María Patiño,3.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Ofensiva de Cataluña,1.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Palomitas de maíz,5.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Reality show,2.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Redes sociales,5.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Rosa López,1.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Sálvame diario,3.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Victoria’s Secret,1.0
+2019-04-02 00:00:00+00:00,tapioca-manicotti-casserole,Ángel Viñas,3.0
+2019-04-11 00:00:00+00:00,tapioca-manicotti-casserole,Barcelona,14.0
+2019-04-11 00:00:00+00:00,tapioca-manicotti-casserole,Barman,14.0
+2019-04-11 00:00:00+00:00,tapioca-manicotti-casserole,Cóctel,14.0
+2019-04-11 00:00:00+00:00,tapioca-manicotti-casserole,Restaurante,7.0
+2019-04-11 00:00:00+00:00,tapioca-manicotti-casserole,Tapa,21.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,ADN,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Accidente de trabajo,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Acoso escolar,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Actor,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Aeropuerto de Barcelona-El Prat,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Alberto Garzón,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Alcantarillado,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Alemania,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Amistad,6.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Armisticio,26.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ascensor,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Asfixia,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Asilo político,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Asturias,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Atenas,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Atlético de Madrid,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Autismo,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Autopsia,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ayuntamiento,7.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Backstreet Boys,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Banco Central Europeo,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Barcelona,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Bebé,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Biodiversidad,5.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Bioética,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Bisfenol A,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Buitre,5.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Cadena perpetua,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Caimán,10.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Calle,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Calle Ferraz,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Campaña electoral,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Capitán,9.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Carlos Herrera,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Cataluña,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Cefalea,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Cerebro,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Chaikovski,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Cheque Escolar,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Chile,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Chinchón,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ciclo del carbono,5.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ciencia,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ciudadanos-Partido de la Ciudadanía,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Clarinete,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Clase media,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Claustro,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Clítoris,6.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Cofradía,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Cogia,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Compositor,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Comunidad de Madrid,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Concierto,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Conservador,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Constitución,18.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Cooperativa,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Coronel,9.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Crack,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Cristo,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Cuenta atrás,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Cuenta corriente,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Cuerpo Nacional de Policía,6.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Cultura,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Célula,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Círculo de Empresarios,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,DJ,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Daenerys Targaryen,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Delito,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Democracia,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Diputado,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Discoteca,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Discriminación,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,EGM,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,ERE,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Economía,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ecuador,6.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Educación,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,El Consejo,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,El País,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,El Vacie,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Embargo,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Embrión,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Empresa,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Empresario,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ennio Morricone,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Enrique de Gales,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ermindo Onega,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Escuela,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Escándalo Watergate,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,España,9.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Esquerra Republicana de Catalunya,6.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Estadio Cornellá-El Prat,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Estado,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Estado Islámico,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Estados Unidos,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Estafa,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Esterilidad,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Euro,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Eva González,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Extradición,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Extrema derecha,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,FC Barcelona,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Familia,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Feminista,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Fenómeno de Internet,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Financiación,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Francia,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Game of Thrones,5.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Gasto público,7.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,General,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Germa,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Glaucoma,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Gobierno,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Gobierno de España,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Golpe de Estado,9.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Grafología,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Gran Hermano,7.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Greatest Hits,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Guardia Civil,9.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Guerra Civil Española,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Harry Potter,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Hectolitro,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Helicóptero,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Himno,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Historia,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Historia del cine,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Holograma,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Hombre,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Hospital,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Hugo Carvajal,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Hugo Chávez,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Impuesto,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Impuesto sobre Bienes Inmuebles,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Inteligencia,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Inversión,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Investigación,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Inés Arrimadas,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Irene Montero,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Isabel Pantoja,5.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Isópodo,10.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Italia,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Jean-Claude Juncker,6.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Jordi González,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Jorge Fernández Díaz,9.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,José Fernando de Abascal,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,José Sacristán,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Juegos sexuales,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Jueves Santo,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Juicio,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Julian Assange,6.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Justicia,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Kiko Matamoros,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Kiko Rivera,6.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Kit Harington,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,La Barceloneta,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Legión,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ley Organica 1/2004 de 28 de diciembre de Medidas de Proteccion Integral contra la Violencia de Genero,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Libertad,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Libertad de culto,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Linchamiento,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Lobby,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Londres,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Los Simpson,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Los miserables,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Lou Pearlman,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Líder de la oposición,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Machismo,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Madrid,8.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Maestría,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Magistrado,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Manilkara zapota,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Mariano Rajoy,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,María Jesús Ruiz Garzón,8.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Medio ambiente,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Meghan Markle,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Meme,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Mercancía,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Meretriz,18.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Metro,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Metro de Barcelona,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Mi rival,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ministerio del Interior,5.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Misoginia,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Miss España,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Mito,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Monarquía,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Montjuic,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Muerte,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Mujer,7.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Mundo,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Málaga,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Música,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Narcotráfico,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Nissan,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Niño,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Núcleo,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Orden,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Organización,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,PSOE,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Pablo Casado,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Pablo Iglesias,6.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Pamela Anderson,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Papa,39.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Papel térmico,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Partido Popular,7.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Partido político,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Parto en casa,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Patata,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Pedro Sánchez,5.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Podcast,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Podemos,6.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Policía,16.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Polonia,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Política,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Político,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Presentador,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Presidente del Gobierno,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Primera Dama,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Primera dama de Chile,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Princesse Akishino,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Programa de televisión,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Psicología,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Público,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,RCD Español,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Racismo,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Radio,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ramón Falcón,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Reality show,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Redes sociales,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Reino Unido,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Religión,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Revolución,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Rita Maestre,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Romanos,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ropa,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ruanda,6.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Rubor,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Salario,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Salta,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Santa Sede,13.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Santiago,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Santiago Abascal,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Sara Sorribes,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Secretario General,5.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Sector público,4.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Segunda República,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Seguridad,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Semana Santa de Málaga,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Seva,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Sevilla,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Sindicato,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Siria,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Sitcom,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Socialista,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Sophie Turner,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Sr. Burns,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Star Wars,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Sudán del Sur,13.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Suiza,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Sussex,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Sylvia Pantoja,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Sálvame diario,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,TMB,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,TV3,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Tecnología,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Telecinco,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Televisión,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Tenis,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Tiempo,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Tonadilla,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Torrelodones,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Trabajador,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Tribunal,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Tumor cerebral,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,T’Hó,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Unión Europea,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Utopía,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Vehículo,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Verdad,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Vigilante de seguridad,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Vino de España,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Violencia de género,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Vox,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Víctima,3.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,WikiLeaks,8.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Windsor,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Yihadista,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,YouTube,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Ángel,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Área metropolitana de Barcelona,2.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Óvulo,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,Útero,1.0
+2019-04-12 00:00:00+00:00,tapioca-manicotti-casserole,’N Sync,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Activista,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Actor,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Adolf Hitler,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Aeropuerto de Tenerife Norte,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Agencia Española de Protección de Datos,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Alan García,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Albert Rivera,8.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Alcalde,5.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Alejarse,4.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Alhambra,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Alianza de los Progresistas,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Angelina Jolie,6.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Asesinato,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Asociación de consumidores,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Autogobierno,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Autopista,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Ayuntamiento,3.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Barcelona en Comú,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Bilbao,5.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Bildu,4.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Botánico,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Brad Pitt,6.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Cantabria,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Caricatura,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Caso Odebrecht,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Catedral de Notre Dame,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Cayetana Álvarez de Toledo,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Charlie Hebdo,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Chiquito de la Calzada,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Ciudadano,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Ciudadanos-Partido de la Ciudadanía,9.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Comunista,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Congestión vehicular,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Congreso de los Diputados,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Cuentas Claras,6.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Delito,3.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Derecha,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Derechos humanos,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Derechos sociales,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Diplomacia,6.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Discriminación,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Divorcio,4.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,ETA,3.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Ecologista,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Ecuador,6.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Embajada,3.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Emmanuel Macron,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Empresa,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,España,3.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Estado,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Estefanía de Mónaco,4.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Extrema derecha,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,FACUA,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Familia,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Fascismo,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Feminista,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Fernando Aramburu,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Fernando VII,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Francés,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Franquismo,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Game of Thrones,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Guerra de la Independencia,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,HBO,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Huelga,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Ideología,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Inglaterra,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Inquisición,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Instagram,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Inés Arrimadas,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Ironía,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,José Luis Ábalos,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,La Palma,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Lenín Moreno,3.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Libertad de expresión,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Londres,6.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Machismo,8.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Madre,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Manifestación,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Matrimonio,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Meme,4.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Migración,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Ministerio Público,3.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Ministerio de Fomento,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Minna no Tō,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Monarquía Hispánica,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Música,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Nacionalidad histórica,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Napoleón,3.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,PNV,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,PSOE,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Pablo Casado,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Pablo Iglesias,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Papa,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Pareja de hecho,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Partido Popular,10.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,París,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Periódico,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Perú,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Plaza de San Pedro,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Política,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Presidente del Gobierno,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Protección de datos personales,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Público,7.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Quico,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Racismo,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Rentería,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Revista,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Rey,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,San Sebastián,5.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Santa Sede,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Santiago Abascal,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Siglo XXI,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Simón de Rentería,5.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Socialdemócrata,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Suecia,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,TVE,6.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Tauromaquia,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Terrorismo,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Tiempo,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Toledo,3.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Tortura,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Tragedia,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Tribunal Supremo,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Twitter,8.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Ultramontano,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Una hija más,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Universidad Autónoma de Barcelona,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Valencia,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Verdaderos Finlandeses,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Vicky Peña,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Vox,2.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,WikiLeaks,6.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Xenofobia,1.0
+2019-04-17 00:00:00+00:00,tapioca-manicotti-casserole,Ángel Nieto,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,ABC,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,AMB,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Abdomen,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Aborto,19.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Abuso sexual,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Accidente de Chernóbil,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Acoso sexual,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Activista,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Actor,14.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Adolescente,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Aduana,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Aeropuerto de Tenerife Norte,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Afasia,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Agujero de ozono,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ahorro,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Al Qaeda,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Alan García,11.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Albalá,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Albert Rivera,34.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Alcalde,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Alejarse,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Alemanes,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Alemania,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Alemania nazi,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Alférez,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Algo habrán hecho,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Amadeo Martínez Inglés,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Amber Heard,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ambulancia,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Amistat,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ana Botella,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ana Obregón,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Andalucía,29.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Andalusia,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Angelina Jolie,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Angola,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Anne Hidalgo,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Antena 3,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Antifeminismo,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Antonio Mazón Seva,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Anulo,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Aplicaciones,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Apple,16.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Arcen,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Argentina,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Arma,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Arran,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Arrendamiento,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Arte,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Arteria,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Asbesto,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Asbestosis,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Asesinato,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Atención primaria,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Atentados del 11 de septiembre de 2001,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Atlético de Madrid,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Atresmedia,52.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Audi,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Australia,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Autobús,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Aventura,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ayuntamiento,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Años 1940,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,BBC,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,BMW,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,BNG,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Badajoz,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Banco,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Bangladés,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Barcellona,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Barcelona,32.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Belén Hoyo,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Beneficio fiscal,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Bildu,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Bolivia,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Bombero,14.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Brad Pitt,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Brexit,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Buena fe,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Bélgica,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,CE Sabadell,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,CTXT,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cadena SER,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Calendario gregoriano,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Calle de Ortega y Gasset,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cambio climático,16.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Camilo Sesto,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Campaña electoral,18.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cantante,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Capilla,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Carlos de Gales,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Carmen Calvo,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Carmen Porter,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Carretera,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Caso Odebrecht,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Castilla-La Mancha,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Castillejos,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cataluña,16.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Catedral,13.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Catedral de Notre Dame,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Catedral de San Patricio de Nueva York,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Catedrático,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Catolicismo,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cayetana Álvarez de Toledo,14.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Caza,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Chelva,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ciclos formativos,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ciencias Políticas,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cine,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cirugía torácica,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cirujano,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ciudadano,31.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ciudadanos-Partido de la Ciudadanía,63.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Clasificación climática de Köppen,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cofradía,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Colombia,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Combustible,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Comercio,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Competición,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Comunicación,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Comunidad Valenciana,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Comunidad de Madrid,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Concordato,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Conservador,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Constitución,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Contrato,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Contrato de seguro,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Coros,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Corrupción,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Corte Penal Internacional,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cortes Valencianas,15.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cos,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cristina Narbona,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Crímenes contra la humanidad,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cuarto Milenio,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cuatro,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cuba,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cuerpos de la Guardia Revolucionaria Islámica,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Culpa,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cultura,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cádiz,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cálculo,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cáncer,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Cáncer de pulmón,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Córdoba,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,David Pla,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,David Torres,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Debate,15.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Defensa,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Delantero,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Delito,23.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Democracia,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Departamento,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Departamento del Tesoro de los Estados Unidos,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Derecha,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Derecho de autodeterminación,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Derecho laboral,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Derechos humanos,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Derechos sociales,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Dermatologia,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Desarrollo económico,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Desempleo,11.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Detector de mentiras,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Deuda pública,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Diagnóstico,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Diana de Gales,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Dictadura,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Dictadura franquista,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Diego Costa,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Diego Simeone,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Dinero,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Divorcio,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Diésel,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Donald Trump,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Dossier Negro,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,EH Bildu,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,ETA,17.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ecografía,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ecologista,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Economía,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Educación,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Educación superior,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Efectos especiales,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,El Mundo,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,El País,18.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Eldiario.es,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Elecciones,80.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Elecciones municipales de 2011,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Electrónica,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Empresa,15.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Empresario,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,En tu cuarto,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Encendedor,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Encuesta,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Enfermedad,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Enrique de Gales,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Entrenador,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Esami del sangue,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Escaños,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Escuela austríaca,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Eslovenia,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,España,41.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Esperanza Aguirre,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Esquerra Republicana de Catalunya,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Estada,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Estado,32.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Estado Islámico,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Estado confesional,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Estados Unidos,16.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Estafa,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Estefanía de Mónaco,16.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Euro,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Eurodiputado,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Euroorden,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Europa,14.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Eva Mendes,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Expolio arqueológico y artístico,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Extinción,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Extrema derecha,17.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,FC Barcelona,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Facebook,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Faja,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Familia,35.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Familia Real Británica,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Fascismo,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Feminista,14.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Fernando Aramburu,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Festival de Música y Artes de Coachella Valley,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Filántropo,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Fotografía,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Francia,18.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Francisco Franco,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Francisco José Alcaraz,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Francés,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Fuego,18.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Fuera de juego,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Fuerteventura,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Fútbol,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Galicia,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Gasolina,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Gemelos,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Genocidio,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Getúlio Vargas,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ginecologia,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Gobierno,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Gobierno de España,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Gol,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Google,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Grados,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Gran Canaria,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Greenpeace,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Grigor Dimitrov,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Guardia Civil,14.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Guardia Urbana de Barcelona,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Guillermo de Cambridge,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Guipúzcoa,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Guàrdia Urbana,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Hacienda,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Hacienda Pública,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Haití,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Hambre,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Hemeroteca,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Hermandad del Baratillo,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Heroína,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Hidroavión,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Hijo,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Hikikomori,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Historia,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Hombre,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Hongo,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Hospitalet de Llobregat,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Huelga,16.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Huesca,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,INE,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,IPad,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,IRPF,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Idea,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ideología,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Iker Jiménez,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Impuesto,11.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Imán,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Inanición,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Incendio,20.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,India,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Individuo,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Industria,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Infancia,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Información,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Informática,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ingreso,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Inmigración,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Inodoro,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Instagram,11.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Intereconomía,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Intima,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Inés Arrimadas,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Irene Montero,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ironía,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Isaac Rosa,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Isabel Celaá,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Isabel Pantoja,13.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Isabel de Brasil,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Islas Baleares,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Israel,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Itaca,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Italia,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Izquierda,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Japón,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Javier Maroto,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Jerga,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Joaquín Almunia,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Johnny Depp,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Joint Tracta,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Jorge Javier Vázquez,14.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Jornada de reflexión,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,José Luis Rodríguez Zapatero,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,José Manuel Soto,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,José María Aznar,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,José María Barreda,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,José María Calleja,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Joya,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Juan Carlos I,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Juan Ignacio Zoido,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Juez,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Junta Electoral Central,16.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Junta de Andalucía,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Justicia,13.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Juventud,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Kebab,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Kiko Matamoros,17.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Kiko Rivera,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Kim Kardashian,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Kuwait,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,La Boquería,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,La Coruña,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,La Crim’,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,La Habra,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,La buscona,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Las Palmas de Gran Canaria,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Legiones,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ley,24.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ley Orgánica del Régimen Electoral General,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Liberalismo,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Libertad,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Libertad de expresión,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Libido,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Liga de Campeones de la UEFA,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Liga italiana,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Linchamiento,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Lluvia,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Los Tetas,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Lucha de clases,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Lérida,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,L’Express,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,M-40,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Machismo,27.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Madeira,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Madonna,20.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Madre,20.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Madrid,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Maite Pagazaurtundúa,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Majadahonda,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Maluma,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Malú,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Mamen Mendizábal,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Manchester City,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Manresa,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Marc-André ter Stegen,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Mariano Rajoy,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Marihuana,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Marruecos,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Marta López,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,María Jesús Montero,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,María Patiño,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,María Rey,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Mecenas,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Medellín,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Medicina,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Medico,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Medio ambiente,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Medios de comunicación,13.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Meme de Internet,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Memoria,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Memoria histórica,29.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Mendoza,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Mercadona,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Mesa electoral,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Meteorología,22.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Metro de Madrid,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Mezquita,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Michael Jackson,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Miguel Buen,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Miguel de Cervantes,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Millonarios,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ministerio Público,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Minuto,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Moda,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Monasterio de Sera,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Montecarlo,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Muerte,42.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Mujer,11.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Mujeres y hombres y viceversa,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Mundo,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Municipios de Roma,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Málaga,37.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Médico,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Médico de cabecera,13.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,México,20.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Mònica López,14.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Mónica López,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Músculo,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Música,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Mýa,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Nacionalismo,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Naciones Unidas,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Navantia,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Navarra,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Nen,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Nisa,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Niño,13.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Nova,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,OPC,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Odómetro,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Olfato,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Olla a presión,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Onda Cero,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Opinión pública,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Orden,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Organización,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Organización Mundial de la Salud,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Osny,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ostomia,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,PNV,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,PSOE,93.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,PSOE-Aragón,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Pablo Casado,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Pablo Iglesias,14.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Palestinos,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Papel,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Paradoja,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Paraguay,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Parlamento Europeo,11.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Partido Popular,93.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Partido Popular de la Comunidad de Madrid,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Partido político,39.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Parto,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,París,27.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Patrimonio,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Pau,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,País Vasco,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Pederastia,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Pedro Pablo Kuczynski,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Pedro Sánchez,42.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Pep Guardiola,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Pepino,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Percival Manglano,15.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Periodismo,15.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Persona,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Perú,17.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Petróleo,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Pink Floyd,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Pizza,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Plata,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Plataforma per la llengua,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Playa,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Playa de Las Canteras,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Plaza de Colón,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Plaza de la Catedral,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Podemos,16.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Poder Judicial,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Policía,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Política,23.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Políticas públicas,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Político,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Pop,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Pornografía,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Portaaviones,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Portero,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Pozoblanco,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Premio Nacional de Fotografía,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Prensa rosa,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Presentador,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Presidente del Gobierno,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Prisión,13.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Procesión,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Programa de televisión,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Propaganda,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Propiedad,13.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Propiedad intelectual,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Prostitución,15.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Proverbio,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Príncipe,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Publicidad,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Puritanos,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Público,13.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Queroseno,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Quim Torra,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Quines,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Quirófano,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,RCD Español,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,RTVE,50.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Radio Nacional de España,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Rafael Nadal,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Raheem Sterling,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Razón,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Realidad,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Realidad aumentada,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Recep Tayyip Erdoğan,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Redes sociales,31.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Refugiados,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Reino Unido,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Relaciones sexuales,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Religión,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Rentería,18.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Repsol,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,República Democrática del Congo,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Restaurante,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Reuters,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Roger Waters,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ronald Després,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Rosario Murillo,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Rubén Amón,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Rusia,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ruth Toledano,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ryan Gosling,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Río Caya,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Río Patía,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Salario,9.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Salud,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Samanta Villar,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,San Mateo,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Santa Sede,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Santiago Abascal,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Segriá,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Seguridad Social,11.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Semana Santa,33.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Senado,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sencillo,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Senegal,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Servei Catala de Transit,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Servicio público,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sevilla,15.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sexo,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Siglo XV,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sindicalista,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sindicato,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sol,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sondeos de opinión,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sonia Sierra,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Soraya Sáenz de Santamaría,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sostén,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Stalin,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sudán,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sueco,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Suicidio,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sukhoi Su-17,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Supervivientes,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sálvame diario,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Sídney,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Síndrome de Down,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Síndrome de fatiga crónica,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,TVE,25.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Tableta,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Tapachula,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Tarifa plana,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Tauromaquia,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Telecinco,7.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Televisión,21.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Televisor,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Tenerife,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Terrorismo,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,The Guardian,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,The Witcher,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Tiempo,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Tormenta,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Torrijas,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Tortura,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Tottenham Hotspur,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Toñi Moreno,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Trabajador,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Tradición,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Tragedia,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Transición,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Transporte,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Trenca,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Tribunal,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Tribunal Supremo,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Triplete,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Turismo,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Turquía,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Twitter,31.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Títere con cabeza,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Túnez,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ucrania,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Uganda,8.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Una hija más,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Unidos Podemos,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Universidad,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Universidad Pompeu Fabra,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Universidad de Barcelona,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Unión Europea,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Urologia,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Uruguay,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Valencia,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Valencia CF,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Vecino,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Vehículo,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Venezuela,1.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Verbo,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Vertele,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Vicente Vallés,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Vicenç Navarro,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Vida,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Video viral,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Viento,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Violencia,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Violencia sexual,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Virgen María,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Virgen de la Caridad,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Virgen del Pilar,2.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Virus,14.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Visa,3.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Vitoria,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Viva la Vida,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Vivienda,19.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Voto,18.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Voto por correo,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Vox,63.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Vídeo,12.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Warner Bros.,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,WhatsApp,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,William Shakespeare,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,World Press Photo,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Yihadista,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Ylenia Carrisi,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,YouTube,6.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Álamo,5.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Álava,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Álbum,4.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Área metropolitana de Barcelona,20.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Órgano,10.0
+2019-04-18 00:00:00+00:00,tapioca-manicotti-casserole,Útero,7.0

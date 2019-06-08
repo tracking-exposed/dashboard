@@ -35,7 +35,7 @@ def main():
     sources_data = sources_data.drop(['shared_from'], axis=1).rename({'post_id': 'postId'}, axis='columns').drop_duplicates(['postId']).fillna(0) # cleaning data
     sources_data['source'] = sources_data['source'].str.split(',').str[0] # preventing errors
     user_a, user_b, sources_data = tools.harmonize(a=[user_a, user_b, sources_data], start=config['start'], end=config['end'], source1=config['source1'], source2=config['source2']) # preparing datasets to be merged
-    user_a = user_a.reset_index().drop_duplicates(['postId']).fillna(0) # drop duplicate postId (irrelevant for this script)
+    user_a = user_a.reset_index().drop_duplicates(['postId']).fillna(0)
     user_b = user_b.reset_index().drop_duplicates(['postId']).fillna(0)
     sources_data = sources_data.reset_index() # reset the index to merge datasets on postid
 

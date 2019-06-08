@@ -3,6 +3,7 @@ from lib import tools
 import configargparse
 import datetime
 import os
+import numpy as np
 
 abs_path = os.path.dirname(__file__)
 print(abs_path)
@@ -63,6 +64,7 @@ def main():
     s = pd.merge(sources_data, df, on='postId', how='outer').fillna(0)
     s = s[s.date != 0]
     s = s.set_index(['date', 'postId'])
+    s['visible'] = np.where(s['seen_by'] > 0, 'yes', 'no')
     path = config['path'] + '/combined.csv'
     s.to_csv(tools.uniquePath(path))
 
