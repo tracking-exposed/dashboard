@@ -54,3 +54,42 @@ def getDf(fbtrexToken, apiname='summary', count=400, skip=0, server='https://fac
         return df
     raise ValueError("Unsupported 'apiname' "+apiname)
 
+def getPersonal(yttrexToken, server='https://youtube.tracking.exposed'):
+    url = server + '/api/v1/personal/' + str(yttrexToken)
+    print("Downloading data via", url)
+    # call API
+    data = requests.get(url, verify=False)
+    checkData(data)
+    df = pd.DataFrame.from_records(data.json()['metadata'])
+    checkDf(df)
+    return df
+
+def getVideo(videoId,server='https://youtube.tracking.exposed'):
+    url = server + '/api/v1/videoId/' + str(videoId)
+    print("Downloading data via", url)
+    # call API
+    data = requests.get(url, verify=False)
+    checkData(data)
+    df = pd.DataFrame.from_records(data.json())
+    checkDf(df)
+    return df
+
+def getRelated(videoId,server='https://youtube.tracking.exposed'):
+    url = server + '/api/v1/related/' + str(videoId)
+    print("Downloading data via", url)
+    # call API
+    data = requests.get(url, verify=False)
+    checkData(data)
+    df = pd.DataFrame.from_records(data.json())
+    checkDf(df)
+    return df
+
+def getLast(server='https://youtube.tracking.exposed'):
+    url = server + '/api/v1/last/'
+    print("Downloading data via", url)
+    # call API
+    data = requests.get(url, verify=False)
+    checkData(data)
+    df = pd.DataFrame.from_records(data.json())
+    checkDf(df)
+    return df
