@@ -25,9 +25,9 @@ def checkData(data):
 
 def checkDf(df):
     if df.empty:
-        raise EmptyDataframeError()
+        raise EmptyDataframeError('Dataframe is empty, are you sure you used the correct token/id?')
     elif type(df) == 'NoneType':
-        raise EmptyDataframeError()
+        raise EmptyDataframeError('Dataframe is empty, are you sure you used the correct token/id?')
 
 
 '''calls (cached) api and returns json data.'''
@@ -60,7 +60,11 @@ def getPersonal(yttrexToken, server='https://youtube.tracking.exposed'):
     # call API
     data = requests.get(url, verify=False)
     checkData(data)
-    df = pd.DataFrame.from_records(data.json()['metadata'])
+    try:
+        df = pd.DataFrame.from_records(data.json()['metadata'])
+    except KeyError:
+        raise EmptyDataframeError('Error! Are you sure you used the correct yttrexToken?')
+
     checkDf(df)
     return df
 
