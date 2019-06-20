@@ -90,6 +90,6 @@ def getLast(server='https://youtube.tracking.exposed'):
     # call API
     data = requests.get(url, verify=False)
     checkData(data)
-    df = pd.DataFrame.from_records(data.json())
+    df = pd.DataFrame.from_records(data.json()['content'])
     checkDf(df)
     return df
