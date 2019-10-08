@@ -21,3 +21,4 @@ pyLDAvis
 dill
 bubbly
 squarify
+chart-studio

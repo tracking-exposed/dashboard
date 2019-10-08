@@ -4,6 +4,7 @@ from lib import API, tools
 import configargparse
 import datetime
 import os
+import pandas as pd
 
 # set up directory paths
 abs_path = os.path.dirname(__file__)
@@ -14,22 +15,24 @@ save_path = os.path.join(abs_path, '..', rel_path)
 p = configargparse.ArgParser(
 )
 p.add('-p', '--path', help='path to save to (default "outputs")', default=save_path)
-p.add('--start', help='start date for harmonizer. default is a week ago', default=str(datetime.date.today()-datetime.timedelta(days=7)))
-p.add('-e', '--end', help='end date for harmonizer. default is tomorrow.', default=str(datetime.date.today()))
+p.add('--start', help='start date for harmonizer. default is since beginning', default=str(datetime.date.today()-datetime.timedelta(days=99999)))
+p.add('-e', '--end', help='end date for harmonizer. default is today.', default=str(datetime.date.today()))
 p.add('--sources', help='directory containing ONLY csv files from FBcrawl, used to merge with user data', required=True)
-p.add('--user1', help='token for user 1 that you want to compare', required=True)
-p.add('--user2', help='token for user 2 that you want to compare', required=True)
+p.add('--user1', help='summary.csv file for user 1 that you want to compare', required=True)
+p.add('--user2', help='summary.csv file for user 2 that you want to compare', required=True)
 p.add('-s1', '--source1', help='string of the exact displayName for the first source', required=True)
 p.add('-s2', '--source2', help='string of the exact displayName for the second source', required=True)
-p.add('-a', '--amount', help='amount of entries to fetch from API', required=True)
 config = vars(p.parse_args())
 
 def main():
     # Data Loading
     fbcrawl_output_files = [os.path.join(config['sources'], f) for f in os.listdir(config['sources']) if os.path.isfile(os.path.join(config['sources'], f)) and f.endswith(".csv")] #list of csv files (fbcrawl outputs) as input to be concatenated
     sources_data = tools.concatenateCsv(fbcrawl_output_files) # concatenate csv
-    user_a = API.getDf(config['user1'], count=config['amount'])
-    user_b = API.getDf(config['user2'], count=config['amount'])
+    # user_a = API.getFacebook(config['user1'], count=config['amount'])
+    # user_b = API.getFacebook(config['user2'], count=config['amount'])
+    user_a = pd.read_csv(config['user1'])
+    user_b = pd.read_csv(config['user2'])
+
 
     # Data Cleaning
     sources_data = sources_data.drop(['shared_from'], axis=1).rename({'post_id': 'postId'}, axis='columns').drop_duplicates(['postId']).fillna(0) # cleaning data

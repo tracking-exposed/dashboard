@@ -31,7 +31,7 @@ def checkDf(df):
 
 
 '''calls (cached) api and returns json data.'''
-def getDf(fbtrexToken, apiname='summary', count=400, skip=0, server='https://facebook.tracking.exposed'):
+def getFacebook(fbtrexToken, apiname='summary', count=400, skip=0, server='https://facebook.tracking.exposed'):
     #check that fbtrexToken is correct
     checkId(fbtrexToken)
 

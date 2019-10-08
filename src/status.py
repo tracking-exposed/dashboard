@@ -4,6 +4,7 @@ from datetime import datetime
 import pandas as pd
 import logging
 
+p.add('-l', '--list-tokens', help='path to txt file with list of tokens separated by newline (return)', default=None)
 
 config = vars(p.parse_args())
 
@@ -13,13 +14,13 @@ if config['name'] != None:
     name = config['name']
 else:
     path = config['path'] + '/' + config['token']+'.log'
-    name = config['path']
+    name = config['token']
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename=path)
 
 
 def check():
-    df = API.getDf(config['token'], apiname='stats', count=1, skip=0)
+    df = API.getFacebook(config['token'], apiname='stats', count=1, skip=0)
 
     # Check for parser errors
     parsing_errors = len(df.loc[(df.summary.astype(str) == '[]') & -(df.htmlId.isnull())])

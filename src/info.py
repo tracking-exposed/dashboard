@@ -13,12 +13,7 @@ p.add('--top', help='number of top sources to retrieve', default=10)
 p.add('--wordcloud', dest='wordcloud', action='store_true', default=False, help='creates a wordcloud and opens it')
 config = vars(p.parse_args())
 
-df = API.getDf(config['token'], 'summary', config['amount'], config['skip'])
-df = tools.setDatetimeIndex(df)
 
-opengraph = pd.DataFrame.from_dict(df.opengraph.to_dict()).T
-
-n = int(config['top'])
 
 def getTimeframe(df):
     maxDate = str(df.index.max())
@@ -57,7 +52,7 @@ def getSponsoredInfo(df):
         timeads = str(datetime.timedelta(seconds=(timeads)))[:-7]
     return result,timeads
 
-def getTopPosts(df, n=10):
+def getTopPosts(opengraph, n=10):
     top = opengraph.title.value_counts().nlargest(n)
     return top
 
@@ -66,7 +61,7 @@ def generate_wordcloud(df): # optionally add: stopwords=STOPWORDS and change the
     text.columns = ['date', 'words']
     text = text.words.str.cat(sep=' ')
 
-    wordcloud = WordCloud(font_path='src/DejaVuSans.ttf',
+    wordcloud = WordCloud(font_path='src/fonts/DejaVuSans.ttf',
                           relative_scaling = 1.0,
                           stopwords = stop_words # set or space-separated string
                           ).generate(text)
@@ -76,6 +71,12 @@ def generate_wordcloud(df): # optionally add: stopwords=STOPWORDS and change the
 
 
 def main():
+    df = API.getFacebook(config['token'], 'summary', config['amount'], config['skip'])
+    df = tools.setDatetimeIndex(df)
+
+    opengraph = pd.DataFrame.from_dict(df.opengraph.to_dict()).T
+
+    n = int(config['top'])
     maxDate, minDate = getTimeframe(df)
     total = getTimeSpent(df)
     top = getTopSources(df, n=n)
@@ -87,7 +88,7 @@ def main():
     print(percentage + ' of the posts are sponsored posts.')
     print('You spent an estimate of ' + timeads + ' watching ads on Facebook.')
     print('Most seen posts:')
-    print(getTopPosts(df))
+    print(getTopPosts(opengraph))
 
     if config['wordcloud']:
         generate_wordcloud(df)

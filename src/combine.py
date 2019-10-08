@@ -15,10 +15,10 @@ p = configargparse.ArgParser(
 )
 
 p.add('-p', '--path', help='path to save to (default "outputs")', default=save_path)
-p.add('--start', help='start date for harmonizer. default is a week ago', default=str(datetime.date.today()-datetime.timedelta(days=7)))
+p.add('--start', help='start date for harmonizer. default is a week ago', default=str(datetime.date.today()-datetime.timedelta(days=99999)))
 p.add('-e', '--end', help='end date for harmonizer. default is tomorrow.', default=str(datetime.date.today()))
-p.add('--sources', help='directory containing ONLY csv files from FBcrawl, used to merge with user data', required=True)
-p.add('--users', help='directory containing ONLY csv files from fbtrex, used to merge with user data', required=True)
+p.add('--sources', help='MUST BE A DIRECTORY containing ONLY csv files from FBcrawl, used to merge with user data', required=True)
+p.add('--users', help='MUST BE A DIRECTORY containing ONLY csv files from fbTREX, used to merge with user data', required=True)
 p.add('-s1', '--source1', help='string of the exact displayname for the first source', required=True)
 p.add('-s2', '--source2', help='string of the exact displayname for the second source', required=True)
 config = vars(p.parse_args())
@@ -28,14 +28,14 @@ def main():
     fbtrex_output_files = [os.path.join(config['users'], f) for f in os.listdir(config['users']) if os.path.isfile(os.path.join(config['users'], f)) and f.endswith(".csv")]
     user_data = tools.concatenateCsv(fbtrex_output_files)
 
-    fbcrawl_output_files = [os.path.join(config['sources'], f) for f in os.listdir(config['sources']) if os.path.isfile(os.path.join(config['sources'], f)) and f.endswith(".csv")] #list of csv files (fbcrawl outputs) as input to be concatenated
-    sources_data = tools.concatenateCsv(fbcrawl_output_files) # concatenate csv
+
+    fbcrawl_output_files = [os.path.join(config['sources'], f) for f in os.listdir(config['sources']) if os.path.isfile(os.path.join(config['sources'], f)) and f.endswith(".csv")]
+    sources_data = tools.concatenateCsv(fbcrawl_output_files)
 
     # Data Cleaning
-    sources_data = sources_data.drop(['shared_from'], axis=1).rename({'post_id': 'postId'}, axis='columns').drop_duplicates(['postId']).fillna(0) # cleaning data
+    sources_data = sources_data.drop(['shared_from'], axis=1).rename({'post_id': 'postId'}, axis='columns').drop_duplicates(['postId']).fillna(0)
     sources_data['source'] = sources_data['source'].str.split(',').str[0] # preventing errors
 
-    user_data = user_data
     user_data = user_data.drop(['ANGRY', 'HAHA', 'LIKE', 'LOVE', 'SAD', 'WOW', 'displaySource',
        'fblinktype', 'images', 'impressionTime',
        'nature', 'opengraph', 'permaLink', 'semanticCount',
@@ -48,20 +48,33 @@ def main():
                                               source2=config['source2']
                                               ) # preparing datasets to be merged
 
+
     f = {'id': 'count',
          'impressionOrder': 'mean',
-         'user': lambda x: x.nunique()
+        # 'user': lambda x: x.nunique()
+         'user': lambda x: ",".join(list(set(x)))
          }
-
     df = user_data[['postId','id','impressionOrder','user']].groupby('postId').agg(f) # perform aggregations
-    df = df.rename({'id': 'total_views', 'user': 'seen_by', 'impressionOrder':'average_order'}, axis='columns') # rename columns
+
+    df['seen_by'] = df['user'].apply(lambda x: len(x))
+
+    df = df.rename({'id': 'total_views',
+                    'impressionOrder':'average_order'
+                    },
+                   axis='columns') # rename columns
+
+
 
     # reset the index to merge datasets on postid
     df = df.reset_index()
     sources_data = sources_data.reset_index()
 
     # merge the data and clean posts which were not seen on fbcrawl
-    s = pd.merge(sources_data, df, on='postId', how='outer').fillna(0)
+    s = pd.merge(sources_data, df, on='postId', how='outer')
+
+    s['user'] = s['user'].fillna('nobody')
+    s = s.fillna(0)
+    print(s['user'])
     s = s[s.date != 0]
     s = s.set_index(['date', 'postId'])
     s['visible'] = np.where(s['seen_by'] > 0, 'yes', 'no')
