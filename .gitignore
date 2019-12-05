@@ -91,3 +91,6 @@ venv.bak/
 dashboard.Rproj
 new_venv/
 venv3/
+/src/classify_sources.py
+/src/compare_users.py
+/Untitled.ipynb
