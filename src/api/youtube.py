@@ -27,21 +27,18 @@ converts it to pandas DataFrame cleans the data and returns the object.
 def personal(yttrexToken, server='https://youtube.tracking.exposed'):
     url = server + '/api/v1/personal/' + str(yttrexToken)
     print("Downloading data via", url)
-    # call API
     data = requests.get(url, verify=False)
     checkData(data)
     try:
         df = pd.DataFrame.from_records(data.json()['recent'])
     except KeyError:
         raise EmptyDataframeError('Error! Are you sure you used the correct yttrexToken?')
-
     checkDf(df)
     return df
 
 def video(videoId,server='https://youtube.tracking.exposed'):
     url = server + '/api/v1/videoId/' + str(videoId)
     print("Downloading data via", url)
-    # call API
     data = requests.get(url, verify=False)
     # checkData(data)
     df = pd.DataFrame.from_records(data.json())
@@ -51,7 +48,6 @@ def video(videoId,server='https://youtube.tracking.exposed'):
 def related(videoId,server='https://youtube.tracking.exposed'):
     url = server + '/api/v1/related/' + str(videoId)
     print("Downloading data via", url)
-    # call API
     data = requests.get(url, verify=False)
     checkData(data)
     df = pd.DataFrame.from_records(data.json())
@@ -61,7 +57,6 @@ def related(videoId,server='https://youtube.tracking.exposed'):
 def last(server='https://youtube.tracking.exposed'):
     url = server + '/api/v1/last/'
     print("Downloading data via", url)
-    # call API
     data = requests.get(url, verify=False)
     checkData(data)
     df = pd.DataFrame.from_records(data.json()['content'])
@@ -71,13 +66,11 @@ def last(server='https://youtube.tracking.exposed'):
 def personal_related(yttrexToken, server='https://youtube.tracking.exposed'):
     url = server + '/api/v1/personal/' + str(yttrexToken)+'/related'
     print("Downloading data via", url)
-    # call API
     data = requests.get(url, verify=False)
     checkData(data)
     try:
         df = pd.DataFrame.from_records(data.json())
     except KeyError:
         raise EmptyDataframeError('Error! Are you sure you used the correct yttrexToken?')
-
     checkDf(df)
     return df
