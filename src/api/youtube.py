@@ -1,3 +1,8 @@
+'''
+This libray allows to get data from the youtube.tracking.exposed API
+and transforms it into pandas DataFrames. It implements caching and timeout.
+'''
+
 import requests
 import pandas as pd
 import requests_cache
@@ -11,6 +16,13 @@ strCache = os.path.join(script_dir, rel_path)
 
 # Initialize Caching
 requests_cache.install_cache(backend='sqlite', expire_after=600, cache_name=strCache)
+
+
+'''
+Keeping the functions separated allows to have human-readable code, and can be more specific.
+The functions use requests with a cache in order to pull data from the tracking.exposed API,
+converts it to pandas DataFrame cleans the data and returns the object.
+'''
 
 def personal(yttrexToken, server='https://youtube.tracking.exposed'):
     url = server + '/api/v1/personal/' + str(yttrexToken)

@@ -1,11 +1,16 @@
+'''
+This libray allows to get data from the facebook.tracking.exposed API
+and transforms it into pandas DataFrames. It implements caching and timeout.
+'''
+
 import requests
 import pandas as pd
 import requests_cache
 import os
 from src.errors import *
 
-# absolute path
-script_dir = os.path.dirname(os.path.dirname(__file__))  # <-- absolute dir the script is in
+
+script_dir = os.path.dirname(os.path.dirname(__file__))
 rel_path = "../.apicache/fbtrex.db"
 strCache = os.path.join(script_dir, rel_path)
 
@@ -13,24 +18,29 @@ strCache = os.path.join(script_dir, rel_path)
 requests_cache.install_cache(backend='sqlite', expire_after=600, cache_name=strCache)
 
 def clean(df):
+
+    """
+    Often (all the times?) only some reactions are calculated.
+    We fill them with zeroes so we can work on an int type column.
+    """
+
     df = df.fillna(value={'ANGRY': 0, 'HAHA': 0, 'LIKE': 0, 'LOVE': 0, 'SAD': 0, 'WOW': 0, 'videoautoplay': ''})
     return df
 
 
+'''
+Keeping the functions separated allows to have human-readable code, and can be more specific.
+The functions use requests with a cache in order to pull data from the tracking.exposed API,
+converts it to pandas dataframe, cleans the data and returns the object.
+'''
+
 def summary(fbtrexToken, count=400, skip=0, server='https://facebook.tracking.exposed'):
-
     apiname = 'summary'
-
-    #check that fbtrexToken is correct
     checkId(fbtrexToken)
-
-    # setup HTTP request
     url = server + '/api/v2/personal/' + str(fbtrexToken) + '/' + apiname + '/' + str(count) + '-' + str(skip)
     print("Downloading JSON data via", url)
-
-    data = requests.get(url)  # call API
+    data = requests.get(url, timeout=10)  # call API
     checkData(data)
-
     df = pd.DataFrame.from_records(data.json())  # convert to df
     checkDf(df)
     df = clean(df)
@@ -40,18 +50,10 @@ def summary(fbtrexToken, count=400, skip=0, server='https://facebook.tracking.ex
 def enrich(fbtrexToken, count=400, skip=0, server='https://facebook.tracking.exposed'):
 
     apiname = 'enrich'
-    #check that fbtrexToken is correct
     checkId(fbtrexToken)
-
-    # setup HTTP request
     url = server + '/api/v2/personal/' + str(fbtrexToken) + '/' + apiname + '/' + str(count) + '-' + str(skip)
     print("Downloading JSON data via", url)
-    # call API
-    data = requests.get(url, timeout=10)
-
-    # Check that Dataframe is not empty
-    # checkData(data)
-    # convert to df
+    data = requests.get(url, timeout=10)    # call API
     df = pd.DataFrame.from_records(data.json())
     checkDf(df)
     df = clean(df)
@@ -60,22 +62,11 @@ def enrich(fbtrexToken, count=400, skip=0, server='https://facebook.tracking.exp
 def stats(fbtrexToken, count=400, skip=0, server='https://facebook.tracking.exposed'):
 
     apiname = 'stats'
-    #check that fbtrexToken is correct
     checkId(fbtrexToken)
-
-    # setup HTTP request
     url = server + '/api/v2/personal/' + str(fbtrexToken) + '/' + apiname + '/' + str(count) + '-' + str(skip)
     print("Downloading JSON data via", url)
-    # call API
-    data = requests.get(url)
-
-    # Check that Dataframe is not empty
+    data = requests.get(url, timeout=10)    # call API
     checkData(data)
-
     df = pd.DataFrame.from_records(data.json()['content'])
     checkDf(df)
     return df
-
-
-
-# raise ValueError("Unsupported 'apiname' "+apiname)
