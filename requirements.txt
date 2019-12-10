@@ -15,7 +15,7 @@ stop-words
 matplotlib-venn
 plotly
 gensim==3.7.3
-nltk==3.4.3
+nltk==3.4.5
 langdetect==1.0.7
 pyLDAvis
 dill
