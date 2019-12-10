@@ -91,6 +91,11 @@ venv.bak/
 dashboard.Rproj
 new_venv/
 venv3/
-/src/classify_sources.py
-/src/compare_users.py
-/Untitled.ipynb
+/scratches/classify_sources.py
+/scratches/compare_users.py
+/notebooks/Untitled.ipynb
+scratches/
+scratches/*
+/requirements2.txt
+/notebooks/FBenv.db
+/outputs/fb/old/
