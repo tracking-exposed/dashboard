@@ -22,3 +22,5 @@ dill
 bubbly
 squarify
 chart-studio
+missingno
+flatten_json
