@@ -37,6 +37,7 @@ for file in files:
         df["title"] = df["title"].str.replace(user+" reacted to ", "")
         df['source'] = df.title.str.split("'s", expand=True)[0]
         df = df[~df['source'].str.contains('liked')]
+        df = df[~df['source'].str.contains(' own post.')]
         df = df.set_index(df['timestamp'])
         df = df[['reaction', 'actor', 'source']]
     df_list.append(df)
