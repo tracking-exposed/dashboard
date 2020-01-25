@@ -33,8 +33,8 @@ for file in files:
         df.columns = ['timestamp', 'reaction', 'actor', 'title']
         user = df.actor.iloc[0].split(" ")[0]
         print('Processing user: '+user)
-        df["title"] = df["title"].str.replace(user+" likes ", "")
-        df["title"] = df["title"].str.replace(user+" reacted to ", "")
+        df["title"] = df["title"].str.replace(df.actor.iloc[0]+" likes ", "")
+        df["title"] = df["title"].str.replace(df.actor.iloc[0]+" reacted to ", "")
         df['source'] = df.title.str.split("'s", expand=True)[0]
         df = df[~df['source'].str.contains('liked')]
         df = df[~df['source'].str.contains(' own post.')]
