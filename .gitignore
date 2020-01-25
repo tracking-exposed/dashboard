@@ -97,5 +97,6 @@ venv3/
 scratches/
 scratches/*
 /requirements2.txt
-/notebooks/FBenv.db
+/notebooks/*.db
 /outputs/fb/old/
+Untitled.ipynb
