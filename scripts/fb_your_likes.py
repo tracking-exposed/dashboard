@@ -11,7 +11,7 @@ follow this help guide for more information: https://www.facebook.com/help/17017
 
 p = configargparse.ArgParser()
 p.add('-i', '--input', help='The path to the folder that contains all the unzipped Facebook "Your Data" json archives.', required=True)
-p.add('-o', '--output', help='The path to the output folder, default is outputs/fb/your_data.', default='outputs/fb/your_data/likes.csv')
+p.add('-o', '--output', help='The path to the output folder, default is outputs/fb/your_data.', default='outputs/fb/your_data/')
 config = vars(p.parse_args())
 
 def filePaths(folder):
@@ -31,7 +31,7 @@ for file in files:
         df = pd.DataFrame(data)
         df['timestamp'] = pd.to_datetime(df['timestamp'], unit='s')
         df.columns = ['timestamp', 'reaction', 'actor', 'title']
-        user = df.actor.iloc[0]
+        user = df.actor.iloc[0].split(" ")[0]
         print('Processing user: '+user)
         df["title"] = df["title"].str.replace(user+" likes ", "")
         df["title"] = df["title"].str.replace(user+" reacted to ", "")
@@ -40,8 +40,5 @@ for file in files:
         df = df[~df['source'].str.contains(' own post.')]
         df = df.set_index(df['timestamp'])
         df = df[['reaction', 'actor', 'source']]
-    df_list.append(df)
-
-df = pd.concat(df_list)
-df.to_csv(config['output'])
-print('Saved to '+config['output'])
+        df.to_csv(config['output']+user+'.csv')
+        print('Saved to: '+ config['output']+user+'.csv')
