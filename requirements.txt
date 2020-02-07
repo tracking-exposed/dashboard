@@ -24,3 +24,4 @@ squarify
 chart-studio
 missingno
 flatten_json
+pandas_profiling
