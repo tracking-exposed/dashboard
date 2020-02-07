@@ -8,19 +8,19 @@ from bokeh.models.widgets import Tabs
 from scripts.table import table_tab
 
 # Read data into dataframes
-flights = pd.read_csv(join(dirname(__file__), '../outputs/fb', 'flights.csv'),
+data = pd.read_csv(join(dirname(__file__), '../outputs/fb', 'etc.csv'),
 	                                          index_col=0).dropna()
 
 # Formatted Flight Delay Data for map
-map_data = pd.read_csv(join(dirname(__file__), 'data', 'flights_map.csv'),
+other_data = pd.read_csv(join(dirname(__file__), 'data', 'etcetc.csv'),
                             header=[0,1], index_col=0)
 
 # Create each of the tabs
-tab1 = histogram_tab(flights)
-tab2 = density_tab(flights)
-tab3 = table_tab(flights)
-tab4 = map_tab(map_data, states)
-tab5 = route_tb(flights)
+tab1 = histogram_tab(data)
+tab2 = density_tab(data)
+tab3 = table_tab(data)
+tab4 = map_tab(other_data)
+tab5 = route_tb(data)
 
 # Put all the tabs into one application
 tabs = Tabs(tabs = [tab1, tab2, tab3, tab4, tab5])
