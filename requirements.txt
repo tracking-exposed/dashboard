@@ -4,6 +4,7 @@ matplotlib
 pandas
 requests
 requests-cache
+
 scikit-learn
 altair
 vega
@@ -25,3 +26,4 @@ chart-studio
 missingno
 flatten_json
 pandas_profiling
+bokeh

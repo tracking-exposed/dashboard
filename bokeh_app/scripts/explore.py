@@ -1,24 +1,67 @@
-import datetime
+from datetime import date
 from os.path import dirname, join
 import pandas as pd
 
 from bokeh.layouts import column, row
-from bokeh.models import Select
-from bokeh.models import ColumnDataSource, Panel
-from bokeh.models.widgets import TableColumn, DataTable
-from bokeh.models.widgets import TextInput
+from bokeh.models import ColumnDataSource, Panel, Select, CustomJS
+from bokeh.models.widgets import TableColumn, DataTable, Button, TextInput, DateRangeSlider
 import re
 
 def explore_tab(df):
-    def get_dataset(src, name, filter):
+
+    def get_dataset(src, name, words, start, end):
         df = src[src.user == name].copy()
-        filter = [str(i) for i in filter.split()]
-        safe_filter = [re.escape(m) for m in filter]
-        df = df[df['texts'].str.contains('&'.join(safe_filter))]
-        return ColumnDataSource(data=df)
+        mask = (df['timestamp'] > start) & (df['timestamp'] <= end)
+        df = df[mask]
+        words = [str(i) for i in words.split()]
+        safe_words = []
+        for word in words:
+            word = re.escape(word)
+            word = "(?=.*{})".format(word)
+            safe_words.append(word)
+
+        df = df[df['texts'].str.contains(''.join(safe_words))]
+
+        source = ColumnDataSource(data=dict())
+
+        cols = ['texts', 'displaySource', 'source']
+        df[cols] = df[cols].replace({',': '', ',,': '', ';': ''}, regex=True)
+
+        source.data = {
+                    # 'index': df.index,
+                    'impressionTime': df.impressionTime,
+                    'impressionOrder': df.impressionOrder,
+                    'source': df.source,
+                    'fblinktype': df.fblinktype,
+                    'texts': df.texts,
+                    'textsize': df.textsize,
+                    'publicationTime': df.publicationTime,
+                    'permaLink': df.permaLink,
+                    'nature': df.nature,
+                    'ANGRY': df.ANGRY,
+                    'HAHA': df.HAHA,
+                    'LIKE': df.LIKE,
+                    'LOVE': df.LOVE,
+                    'SAD': df.SAD,
+                    'WOW': df.WOW,
+                    'displaySource': df.displaySource,
+                    'id': df.id,
+                    'timestamp': df.timestamp,
+                    # 'images': df.images,
+                    # 'opengraph': df.opengraph,
+                    'postId': df.postId,
+                    # 'semanticCount': df.semanticCount,
+                    # 'semanticId': df.semanticId,
+                    'sourceLink': df.sourceLink,
+                    'timeline': df.timeline,
+                    'user': df.user,
+                    # 'videoautoplay': df.videoautoplay
+            }
+
+        return source
 
     def make_table(source):
-        # Columns of table
+        # Columns of tablem
         table_columns = [
             TableColumn(field='impressionTime', title='Time'),
             TableColumn(field='impressionOrder', title='Order'),
@@ -34,32 +77,47 @@ def explore_tab(df):
             TableColumn(field='LIKE', title='Like'),
             TableColumn(field='LOVE', title='Love'),
             TableColumn(field='SAD', title='Sad'),
-            TableColumn(field='WOW', title='Wow')
+            TableColumn(field='WOW', title='Wow'),
+
         ]
 
         user_table = DataTable(source=source,
-                               columns=table_columns, width=1000)
+                               columns=table_columns, width=1400)
         return user_table
 
-    def update_plot(attrname, old, new):
+    def update(attrname, old, new):
         name = name_select.value
         text_filter = text_input.value
-        src = get_dataset(df, name, text_filter)
+        start = date_slider.value[0]
+        end = date_slider.value[1]
+        src = get_dataset(df, name, text_filter, start, end)
         source.data.update(src.data)
 
     name = df.user.iloc[0]
-    filter = ''
+    words = ''
     names = df.user.unique()
+    start = df.timestamp.min()
+    end = df.timestamp.max()
 
     name_select = Select(value=name, title='User', options=sorted(names))
     text_input = TextInput(value="", title="Filter text:")
+    date_slider = DateRangeSlider(title="Date Range: ", start=df.timestamp.min(), end=date.today(),
+                                        value=(df.timestamp.min(), date.today()), step=1,
+                                  callback_policy='mouseup')
 
-    source = get_dataset(df, name, filter)
+    button = Button(label="Download", button_type="success")
+
+    source = get_dataset(df, name, words, start, end)
+
     table = make_table(source)
 
-    name_select.on_change('value', update_plot)
-    text_input.on_change('value', update_plot)
+    name_select.on_change('value', update)
+    text_input.on_change('value', update)
+    date_slider.on_change('value', update)
 
-    controls = column(name_select, text_input)
+    button.js_on_click(CustomJS(args=dict(source=source),
+                                code=open(join(dirname(__file__), "download.js")).read()))
+
+    controls = column(name_select, date_slider, text_input, button)
     tab = Panel(child=row(table, controls), title='Explore')
     return tab
