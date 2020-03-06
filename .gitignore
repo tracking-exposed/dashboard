@@ -94,9 +94,12 @@ venv3/
 /scratches/classify_sources.py
 /scratches/compare_users.py
 /notebooks/Untitled.ipynb
-scratches/
+scratches
 scratches/*
 /requirements2.txt
 /notebooks/*.db
 /outputs/fb/old/
 ../personal-fb-analysis/Untitled.ipynb
+/scratches/
+/scratches/*
+/scratches/

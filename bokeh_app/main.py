@@ -2,8 +2,9 @@ import pandas as pd
 import os
 from bokeh.io import curdoc
 from bokeh.models.widgets import Tabs
-from scripts.table import table_tab
+from scripts.cleaning import cleaning_tab
 from scripts.explore import explore_tab
+from scripts.stats import stats_tab
 from datetime import datetime
 now = datetime.now()
 
@@ -35,11 +36,12 @@ post_count = pd.read_csv(aggregated_folder+'post_count.csv')
 
 
 # Create each of the tabs
-tab1 = table_tab(df)
+tab1 = cleaning_tab(df)
 tab2 = explore_tab(df)
+tab3 = stats_tab(posts_vs_ads,scrolling_time,source_count,post_count)
 
 # Put all the tabs into one application
-tabs = Tabs(tabs=[tab2, tab1])
+tabs = Tabs(tabs=[tab1, tab2, tab3])
 
 # Put the tabs in the current document for display
 curdoc().add_root(tabs)

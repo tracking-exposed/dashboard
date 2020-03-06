@@ -5,7 +5,7 @@ import numpy as np
 from bokeh.models import ColumnDataSource, Panel
 from bokeh.models.widgets import TableColumn, DataTable
 
-def table_tab(df):
+def cleaning_tab(df):
 
 	# Calculate summary stats for table
 

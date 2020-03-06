@@ -57,7 +57,6 @@ def explore_tab(df):
                     'user': df.user,
                     # 'videoautoplay': df.videoautoplay
             }
-
         return source
 
     def make_table(source):
@@ -77,10 +76,8 @@ def explore_tab(df):
             TableColumn(field='LIKE', title='Like'),
             TableColumn(field='LOVE', title='Love'),
             TableColumn(field='SAD', title='Sad'),
-            TableColumn(field='WOW', title='Wow'),
-
+            TableColumn(field='WOW', title='Wow')
         ]
-
         user_table = DataTable(source=source,
                                columns=table_columns, width=1400)
         return user_table
