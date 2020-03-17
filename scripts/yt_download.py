@@ -20,6 +20,8 @@ p = configargparse.ArgParser(
 
 p.add('-p', '--path', help='path to save to (default "outputs")', default=save_path)
 p.add('--no-csv', dest='csv', action='store_false', default=True, help='do not create a csv, creates a json instead')
+p.add('-a', '--amount', default=200, help='amount of entries to retrieve, default 200')
+p.add('-s','--skip', default=0, help='amount of entries to skip, default 0')
 p.add('--personal', default='',
       help='download personal data with your ID, must specify a token for your ytTREX user which can be retrieved by clicking on your extension icon.')
 p.add('--last', dest='last', action='store_true', default=False,
@@ -38,9 +40,10 @@ def save(df, path):
     if config['csv']:
         print('Saving CSV to ' + path + '.csv')
         df.to_csv(tools.uniquePath(path + '.csv'), index=False)
-    if not config['csv']:
+    else:
         print('Saving JSON to ' + path + '.json')
-        df.to_json(tools.uniquePath(path + '.json'))
+        with open(tools.uniquePath(path + '.json'),"wb") as f:
+            f.write(df)
 
 
 def expand(df):
@@ -78,34 +81,49 @@ def expand(df):
 
 def last():
     path = config['path'] + '/yt/last/last'
-    df = youtube.last()
-    df = expand(df)
+    if config['csv']:
+        df = youtube.last()
+        df = expand(df)
+    else:
+        df = youtube.last_json()
     save(df, path)
 
 
 def personal():
     path = config['path'] + '/yt/personal/' + config['personal']
-    df = youtube.personal(config['personal'])
+    if config['csv']:
+        df = youtube.personal(config['personal'])
+    else:
+        df = youtube.personal_json(config['personal'])
     save(df, path)
 
 
 def personal_related():
     path = config['path'] + '/yt/personal_related/' + config['personal_related']
-    df = youtube.personal_related(config['personal_related'])
+    if config['csv']:
+        df = youtube.personal_related(config['personal_related'])
+    else:
+        df = youtube.personal_related_json(config['personal_related'])
     save(df, path)
 
 
 def video():
     path = config['path'] + '/yt/video/' + config['video']
-    df = youtube.video(config['video'])
-    df = expand(df)
+    if config['csv']:
+        df = youtube.video(config['video'])
+        df = expand(df)
+    else:
+        df = youtube.video_json(config['video'])
     save(df, path)
 
 
 def related():
     path = config['path'] + '/yt/related/' + config['related']
-    df = youtube.related(config['related'])
-    df = expand(df)
+    if config['csv']:
+        df = youtube.related(config['related'])
+        df = expand(df)
+    else:
+        df = youtube.related_json(config['related'])
     save(df, path)
 
 

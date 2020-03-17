@@ -3,13 +3,12 @@ import numpy as np
 import sys
 sys.path.append('..')
 from bokeh.models import ColumnDataSource, Panel
-from bokeh.models.widgets import TableColumn, DataTable, Slider
 from bokeh.layouts import column, row
-from bokeh.models import ColumnDataSource, Panel, Select, CustomJS, Div
+from bokeh.models import ColumnDataSource, Panel, Select, Div
 from bokeh.plotting import figure
 from bokeh.transform import cumsum
-from bokeh.models.widgets import TableColumn, DataTable, Button, TextInput, DateRangeSlider
-from bokeh.models import ColumnDataSource
+from bokeh.models.widgets import TableColumn, DataTable, Slider  #, Button, TextInput, DateRangeSlider
+
 from bokeh.palettes import Spectral6
 from bokeh.plotting import figure
 from bokeh.transform import factor_cmap
@@ -45,7 +44,7 @@ def stats_tab(posts_vs_ads, scrolling_time, source_count, post_count):
                          ]
 
         table = DataTable(source=source_count,
-                               columns=table_columns, width=1000)
+                               columns=table_columns, width=400, height=200)
         return table
 
     def top_posts_table(post_count):
@@ -57,7 +56,7 @@ def stats_tab(posts_vs_ads, scrolling_time, source_count, post_count):
                          ]
 
         table = DataTable(source=post_count,
-                          columns=table_columns, width=1000)
+                          columns=table_columns, width=400, height=200)
         return table
 
     def get_dataset(posts_vs_ads,
@@ -125,6 +124,8 @@ def stats_tab(posts_vs_ads, scrolling_time, source_count, post_count):
     name = source_count.user.iloc[0]
     ntop = 3.0
     names = source_count.user.unique()
+    source_table_title = Div(text="""Top Sources""", width=100, height=20)
+    posts_table_title = Div(text="""Top Posts""", width=100, height=20)
 
     # init controls
     name_select = Select(value=name, title='User', options=sorted(names))
@@ -154,8 +155,8 @@ def stats_tab(posts_vs_ads, scrolling_time, source_count, post_count):
     tab = Panel(child=column(controls,
                              row(timespent,
                                  postadspie),
-                             topposts,
-                             topsources
+                             row(column(posts_table_title, topposts),
+                             column(source_table_title, topsources))
                                   ),
                 title='Statistics')
     return tab
